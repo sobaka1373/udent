@@ -92,7 +92,7 @@ header #top-menu li a {
     display: flex;
 }
 
-.header-btn p {
+.header-btn p, .virtual-btn p {
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +101,7 @@ header #top-menu li a {
     color: #02111B;
     text-transform: uppercase;
 }
-.header-btn .record-arrow img {
+.header-btn .record-arrow img, .virtual-btn .record-arrow img {
     display: block;
     margin-top: 5px;
     margin-left: 14px;
@@ -276,7 +276,7 @@ footer .p-legal a {
     text-decoration: none;
 }
 
-footer .btn-record {
+.btn-record {
     display: flex;
     background: #FECC00;
     justify-content: center;

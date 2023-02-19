@@ -54,7 +54,7 @@ $test = is_front_page();
         <div class="address-data">
           <p class="city-street">г.Гомель, ул.Кирова 19-2</p>
           <div class="address-data-container">
-            <div class="right">
+            <div>
               <p>Пн-Пт 8:00-20:00</p>
               <p>Сб-Вс 9:00-15:00</p>
             </div>

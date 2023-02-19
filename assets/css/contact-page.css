@@ -7,9 +7,9 @@
     line-height: 120%;
     color: #02111B;
 }
-.contact-header {
-    margin-top: 80px;
-}
+/*.contact-header {*/
+/*    margin-top: 80px;*/
+/*}*/
 .contact-columns {
     display: grid;
     grid-template-columns: 50% 50%;
