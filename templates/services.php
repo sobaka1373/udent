@@ -1,126 +1,142 @@
 <?php /* Template Name: Services */ ?>
 
 <?php get_header(); ?>
-    <div class="services-page">
-        <div class="container">
-            <div class="main-title">
-                Наша клиника оказывает следующие виды услуг
+  <div class="service-page-container">
+
+    <div class="services-container">
+      <div class="services-header header">
+        <p>
+          Услуги клиники
+        </p>
+      </div>
+      <div class="services-points">
+        <div class="row">
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg">
             </div>
-            <div class="grid-wrapper">
-                <div class="grid-item">
-                    <a href="./implatation/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/implant.png" alt="implant">
-                        </div>
-                        <p>Имплантация</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="./protezirovanie/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/protez.png" alt="protez">
-                        </div>
-                        <p>Протезирование</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="./treatment/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/lechenie.png"
-                                 alt="lechenie">
-                        </div>
-                        <p>Лечение</p>
-                        <span>под микроскопом</span>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="./bite-correction/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pricus.png" alt="pricus">
-                        </div>
-                        <p>Исправление прикуса</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="./rentgen/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/rentgen.png" alt="rentgen">
-                        </div>
-                        <p>Рентген-диагностика</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="./whitening/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/otbel.png" alt="otbel">
-                        </div>
-                        <p>Отбеливание зубов</p>
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="./spa/">
-                        <div class="image">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/spa.png" alt="spa">
-                        </div>
-                        <p>SPA-уход для зубов</p>
-                    </a>
-                </div>
+            <div class="right">
+              <p>
+                Реставрация, виниры
+              </p>
             </div>
+          </div>
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.svg">
+            </div>
+            <div class="right">
+              <p>
+                Протезирование
+              </p>
+            </div>
+          </div>
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service3.svg">
+            </div>
+            <div class="right">
+              <p>
+                Лечение
+              </p>
+            </div>
+          </div>
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service4.svg">
+            </div>
+            <div class="right">
+              <p>
+                Отбеливание
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service5.svg">
+            </div>
+            <div class="right">
+              <p>
+                Рентген-диагностика
+              </p>
+            </div>
+          </div>
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service6.svg">
+            </div>
+            <div class="right">
+              <p>
+                Отбеливание зубов
+              </p>
+            </div>
+          </div>
+          <div class="service-element">
+            <div class="left">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service7.svg">
+            </div>
+            <div class="right">
+              <p>
+                SPA-уход <br> для зубов
+              </p>
+            </div>
+          </div>
+          <div class="service-element">
+            <div class="virtual-btn">
+              <p>подробнее</p>
+              <div class="record-arrow">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/right-arrow.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="insurance-block-service">
-        <div class="insurance-block-header">Также мы позаботились о Вашем удобстве и заключили договоры на оказание
-            стоматологической помощи
-            со страховыми компаниями:
+
+    <div class="insurance-container">
+      <div class="insurance-header header">
+        <p>
+          Стоматология по страховке
+        </p>
+      </div>
+      <div class="row">
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance1.svg">
         </div>
-        <div class="owl-carousel">
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image48.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image49.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image50.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image52.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image33.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image48.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image49.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image50.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image52.png"
-                 alt="insurance">
-          </div>
-          <div class="item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/slider/image33.png"
-                 alt="insurance">
-          </div>
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance2.svg">
         </div>
-        <div class="insurance-description">
-            <div class="more">
-                <a href="./services/insurance">
-                Подробнее
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow.svg" alt="arrow"></a>
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance3.svg">
+        </div>
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance4.svg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance5.svg">
+        </div>
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance6.svg">
+        </div>
+        <div class="service-element">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance7.svg">
+        </div>
+        <div class="service-element">
+          <div class="virtual-btn">
+            <p>подробнее</p>
+            <div class="record-arrow">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/right-arrow.svg">
             </div>
+          </div>
         </div>
+      </div>
     </div>
+
+    <div class="after-footer-row"></div>
+
+  </div>
 <?php get_footer(); ?>
