@@ -148,17 +148,16 @@ header ul .menu-item-has-children:after {
 
 footer {
     justify-content: space-between;
-    padding: 35px 73px 35px 52px;
     min-height: 450px;
     padding-top: 33px;
 }
 
 .footer-container {
-    max-width: 1340px;
+    max-width: 1360px;
     margin: 0 auto;
     display: grid;
     overflow: hidden;
-    grid-template-columns: 33% 30% 37%;
+    grid-template-columns: 36% 36% 28%;
 }
 .p-legal {
     margin-top: 34px;

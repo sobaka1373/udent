@@ -323,21 +323,21 @@ body p {
   display: flex;
 }
 
-.about-us-container .about-us-info-container .list-container {
+.about-us-container .about-us-info-container .list-container, .about-us-list .list-container {
   max-width: 580px;
 }
 
-.about-us-container .about-us-info-container .list-container .element {
+.about-us-container .about-us-info-container .list-container .element, .about-us-list .list-container .element {
   display: flex;
   padding: 22px 0 19px 0;
   border-bottom: 1px solid #DBC9B1;
 }
 
-.about-us-container .about-us-info-container .list-container .element p {
+.about-us-container .about-us-info-container .list-container .element p, .about-us-list .list-container .element p {
   margin: 0;
 }
 
-.about-us-container .about-us-info-container .list-container .element img {
+.about-us-container .about-us-info-container .list-container .element img, .about-us-list .list-container .element img {
   margin-right: 87px;
 }
 

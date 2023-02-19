@@ -9,7 +9,7 @@
 $test = is_front_page();
 ?>
 
-<footer class="footer <?php if (!is_front_page()) { echo 'purple'; } ?>">
+<footer class="footer">
   <div class="footer-container">
     <div class="column1">
       <div class="logo">
