@@ -1,6 +1,7 @@
 .specialist-page .doctors-block-grid {
-    grid-template-columns: 330px 330px 330px 330px;
-    grid-template-rows: 552px 552px 552px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
 .specialist-page .doctors-block {
     margin-top: 70px;
@@ -47,6 +48,15 @@
     margin-top: 0;
 }
 
+.specialist-page .doctors-block-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.specialist-page .doctors-container {
+    margin: 68px 0 0 0;
+}
+
 @media screen and (min-width: 1600px) {
     .doctor-main-container-second, .doctor-main-container, .doctor-main-container-third   {
         margin-left: calc(60% - 40vw) !important;
@@ -55,7 +65,7 @@
 }
 @media screen and (max-width: 1455px) {
     .specialist-page .doctors-block-grid {
-        grid-template-columns: 328px 328px 328px 328px;
+        grid-template-columns: auto auto auto;
     }
 }
 @media screen and (max-width: 1450px) {
@@ -70,11 +80,7 @@
 }
 @media screen and (max-width: 1400px) {
     .specialist-page .doctors-block-grid {
-        grid-template-columns: 300px 300px 300px !important;
-        grid-template-rows: 552px 552px 552px 552px !important;
-    }
-    .specialist-page .doctors-block-grid {
-        max-width: 950px;
+        grid-template-columns: auto auto auto;
     }
     .specialist-page .doctors-block-grid .item-container img {
         /*padding-right: 30px*/
@@ -90,8 +96,7 @@
 }
 @media screen and (max-width: 1025px) {
     .specialist-page .doctors-block-grid {
-        grid-template-columns: 298px 298px !important;
-        grid-template-rows: 552px 552px 552px 552px !important;
+        grid-template-columns: auto auto;
         margin: 0 auto;
     }
 

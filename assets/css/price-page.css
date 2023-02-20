@@ -1,32 +1,36 @@
 .price-container {
-    margin-left: 240px;
-    margin-right: 270px;
-    margin-bottom: 60px;
+    max-width: 1360px;
+    margin: 65px auto 0 auto;
 }
 
 .price-container .price-header {
-    font-family: Tenor, sans-serif;
+    font-family: Gilroy;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 120%;
     color: #02111B;
-    text-align: center;
-    margin-top: 80px;
+    margin-bottom: 35px;
 }
 .price-container .level-menu-first-p {
-    font-family: Tenor, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 130%;
-    color: #02111B;
+    border: 1px solid #DBC9B1;
+    border-radius: 10px;
+    padding: 30px 15px 30px 39px;
+    margin-bottom: 10px;
 }
 .price-container-ul {
     display: flex;
-    padding: 15px 20px;
-    border-bottom: 2px solid rgba(129, 135, 189, 0.2);
 }
+
+.price-container-ul .text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    margin: auto 0;
+}
+
 .price-container-ul .arrow-down, .price-container-ul .arrow-up {
     margin-left: auto;
 }
@@ -35,20 +39,32 @@
 }
 .price-menu li {
     display: flex;
-    border-bottom: 2px solid rgba(129, 135, 189, 0.2);
-    padding: 8px 20px;
+    border-bottom: 1px solid #DBC9B1;
+    padding: 33px 0 10px 0;
 }
 .price-menu .li-text, .price-menu .li-price {
-    font-family: IBMPlex, sans-serif;
+    font-family: Gilroy;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #02111B;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
 }
+
+.price-menu li:first-child {
+    padding: 55px 0 10px 0;
+}
+
 .price-menu .li-price {
     margin-left: auto;
     text-align: end;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;text-transform: uppercase;
+    color: #02111B;
 }
 .price-menu-hide {
     display: none;
@@ -60,13 +76,14 @@
     display: none;
 }
 .price-menu .sub-point div {
-    font-family: Tenor, sans-serif;
+    font-family: Gilroy;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 130%;
-    color: #02111B;
+    line-height: 120%;
+    color: #000000;
     margin-left: 50px;
+    margin-top: 7px;
 }
 
 .price-menu .li-text {
