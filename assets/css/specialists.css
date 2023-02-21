@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 1600px) {
     .doctor-main-container-second, .doctor-main-container, .doctor-main-container-third   {
-        margin-left: calc(60% - 40vw) !important;
+        /*margin-left: calc(60% - 40vw) !important;*/
         margin-bottom: 50px;
     }
 }
