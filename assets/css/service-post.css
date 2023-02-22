@@ -1,0 +1,54 @@
+.service-type-page-container {
+    max-width: 1360px;
+    margin: 65px auto 0 auto;
+}
+.page-content1-container {
+    display: flex;
+    border: 1px solid #DBC9B1;
+    border-radius: 30px;
+}
+
+.page-content1-container .service-header {
+    margin: 30px 0 70px 29px;
+    font-family: Gilroy;
+}
+.page-content1-container .service-content1 {
+    font-family: Gilroy;
+    margin-left: 29px;
+    font-size: 18px;
+    min-width: 645px;
+}
+
+.page-content2-container {
+    font-family: Gilroy;
+    margin-top: 50px;
+    margin-left: 29px;
+}
+
+.page-content2-container h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.page-content2-container ol {
+    padding-left: 0;
+}
+
+.page-content2-container ol li {
+    list-style-type: none;
+    display: flex;
+}
+.page-content2-container ol li:before {
+    content: url("data:image/svg+xml,%3Csvg width='31' height='1' viewBox='0 0 31 1' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='4.37114e-08' y1='0.5' x2='31' y2='0.500003' stroke='%2302111B'/%3E%3C/svg%3E");
+    display: block;
+    margin: -4px 15px 0 0;
+}
+
+.page-content2-container ul {
+    padding-left: 25px;
+}
+

@@ -32,20 +32,13 @@ if ( ! function_exists('theme_setup')) :
             wp_enqueue_style('main_page_styles', get_stylesheet_directory_uri() . '/assets/css/main-page.css');
             wp_enqueue_style('about_us_styles', get_stylesheet_directory_uri() . '/assets/css/about-us-page.css');
             wp_enqueue_style('services_page', get_stylesheet_directory_uri() . '/assets/css/services-page.css');
-            wp_enqueue_style('implantation_page', get_stylesheet_directory_uri() . '/assets/css/implantation-page.css');
             wp_enqueue_style('specialists', get_stylesheet_directory_uri() . '/assets/css/specialists.css');
-            wp_enqueue_style('treatment_page', get_stylesheet_directory_uri() . '/assets/css/treatment-page.css');
-            wp_enqueue_style('rentgen_page', get_stylesheet_directory_uri() . '/assets/css/rentgen-page.css');
-            wp_enqueue_style('spa_page', get_stylesheet_directory_uri() . '/assets/css/spa-page.css');
             wp_enqueue_style('doctor_post', get_stylesheet_directory_uri() . '/assets/css/doctor-post.css');
-            wp_enqueue_style('pricus_page', get_stylesheet_directory_uri() . '/assets/css/pricus-page.css');
-            wp_enqueue_style('pro_page', get_stylesheet_directory_uri() . '/assets/css/prosthentics-page.css');
-            wp_enqueue_style('whit_page', get_stylesheet_directory_uri() . '/assets/css/whitening-page.css');
             wp_enqueue_style('insurance_page', get_stylesheet_directory_uri() . '/assets/css/insurance-page.css');
             wp_enqueue_style('contact_page', get_stylesheet_directory_uri() . '/assets/css/contact-page.css');
             wp_enqueue_style('price_page', get_stylesheet_directory_uri() . '/assets/css/price-page.css');
-            wp_enqueue_style('achiv_page', get_stylesheet_directory_uri() . '/assets/css/achiv-page.css');
-            wp_enqueue_style('empty_no_secure', get_stylesheet_directory_uri() . '/assets/css/empty-no-secure.css');
+            wp_enqueue_style('service', get_stylesheet_directory_uri() . '/assets/css/service-post.css');
+
 
             wp_enqueue_script('main', get_stylesheet_directory_uri() . '/assets/js/main.js');
         }
@@ -76,6 +69,37 @@ function register_post_types(){
             'not_found_in_trash' => 'Не найдено в корзине',
             'parent_item_colon'  => '',
             'menu_name'          => 'Доктора',
+        ],
+        'description'         => '',
+        'public'              => true,
+        'show_in_menu'        => true,
+        'show_in_rest'        => null,
+        'rest_base'           => null,
+        'menu_position'       => null,
+        'menu_icon'           => null,
+        'hierarchical'        => false,
+        'supports'            => [ 'title' ],
+        'taxonomies'          => [],
+        'has_archive'         => false,
+        'rewrite'             => true,
+        'query_var'           => true,
+    ] );
+
+    register_post_type( 'service_type', [
+        'label'  => null,
+        'labels' => [
+            'name'               => 'Услуга',
+            'singular_name'      => 'Услуга',
+            'add_new'            => 'Добавить услугу',
+            'add_new_item'       => 'Добавление услуги',
+            'edit_item'          => 'Редактирование услуги',
+            'new_item'           => 'Новая услуга',
+            'view_item'          => 'Смотреть услугу',
+            'search_items'       => 'Искать услугу',
+            'not_found'          => 'Не найдено',
+            'not_found_in_trash' => 'Не найдено в корзине',
+            'parent_item_colon'  => '',
+            'menu_name'          => 'Услуги',
         ],
         'description'         => '',
         'public'              => true,
