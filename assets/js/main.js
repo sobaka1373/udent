@@ -1,19 +1,19 @@
 jQuery(document).ready(function($) {
-   $('.burger-inner img').click(function (){
+   $('.burger-menu img').click(function (){
       if ($('.hide-menu').length > 0) {
-         $('.burger-menu').removeClass('hide-menu');
-         $('.burger-menu').addClass('active-menu');
+         $('.burger-menu1').removeClass('hide-menu');
+         $('.burger-menu1').addClass('active-menu');
          $('body').addClass('hide-page');
       } else {
-         $('.burger-menu').removeClass('active-menu');
-         $('.burger-menu').addClass('hide-menu');
+         $('.burger-menu1').removeClass('active-menu');
+         $('.burger-menu1').addClass('hide-menu');
          $('body').removeClass('hide-page');
       }
    });
 
    $('.burger-menu-header .close').click(function (){
-      $('.burger-menu').removeClass('active-menu');
-      $('.burger-menu').addClass('hide-menu');
+      $('.bburger-menu1').removeClass('active-menu');
+      $('.burger-menu1').addClass('hide-menu');
       $('body').removeClass('hide-page');
    });
 
@@ -75,16 +75,16 @@ jQuery(document).ready(function($) {
       $('.ellipse').css('background', 'unset');
    });
 
-   $(document).mouseup(function (e) {
-      var container = $(".pop-it-record");
-      if (container.has(e.target).length === 0){
-         container.hide();
-         $('.pop-it-record').hide();
-         $('body').removeClass('hide-page');
-         $('.ellipse').css('box-shadow', '0px 5px 100px 100px rgb(253 253 253) inset');
-         $('.ellipse').css('background', 'rgba(254, 204, 0, 0.0784313725)');
-      }
-   });
+   // $(document).mouseup(function (e) {
+   //    var container = $(".pop-it-record");
+   //    if (container.has(e.target).length === 0){
+   //       container.hide();
+   //       $('.pop-it-record').hide();
+   //       $('body').removeClass('hide-page');
+   //       $('.ellipse').css('box-shadow', '0px 5px 100px 100px rgb(253 253 253) inset');
+   //       $('.ellipse').css('background', 'rgba(254, 204, 0, 0.0784313725)');
+   //    }
+   // });
 
    $('.record-header .close img').click(function (){
       $('.pop-it-record').hide();
@@ -145,4 +145,14 @@ jQuery(document).ready(function($) {
       pagination: false,
       center: true,
    });
+
+
+
+   $('.burger-menu1 #top-menu-nav ul .menu-item-has-children').click(function () {
+      $('.burger-menu1 #top-menu-nav .sub-menu').show();
+
+      console.log(11);
+   });
+
+
 });

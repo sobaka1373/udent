@@ -35,6 +35,74 @@ global $post;
 <?php wp_body_open(); ?>
 <header id="main-header" data-height-onload="66" class="<?php if ($post->post_name === 'services' || $post->post_name === 'specialists' || $post->post_parent !== 0) { echo 'big-header'; } ?>">
   <div class="header-container">
+    <div class="burger-menu1 hide-menu">
+      <div class="burger-menu-header">
+        <div class="close">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+        </div>
+      </div>
+<!--      <nav id="top-menu-nav">-->
+<!--          --><?php
+//          wp_nav_menu(array(
+//              'theme_location' => 'Top menu',
+//              'menu_id' => 'top-menu',
+//              'container' => 'ul',
+//              'menu_class' => 'nav',
+//          )); ?>
+<!--      </nav>-->
+      <nav id="top-menu-nav" class="nav">
+        <ul id="top-menu" class="nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109">
+            <p><a href="<?php echo get_bloginfo('url'); ?>/about-us/">О клинике</a></p>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-107">
+            <p class="burger-sub-p"><a href="<?php echo get_bloginfo('url'); ?>/services/">Услуги</a>
+              <img class="burger-sub close-sub" src="<?php echo get_template_directory_uri(); ?>/assets/img/down-arrow.svg" /></p>
+
+            <ul class="sub-menu-second">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/implatation/">Имплантация</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/protezirovanie/">Протезирование</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/treatment/">Лечение под микроскопом</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/bite-correction/">Исправление прикуса</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/rentgen/">Рентген-диагностика</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/whitening/">Отбеливание зубов</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/spa/">SPA-уход для зубов</a></p>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89">
+                <p><a href="<?php echo get_bloginfo('url'); ?>/services/insurance">Стоматология по страховке</a></p>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50">
+            <p><a href="<?php echo get_bloginfo('url'); ?>/specialists/">специалисты</a></p>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52">
+            <p><a href="<?php echo get_bloginfo('url'); ?>/price/">цены</a></p>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49">
+            <p><a href="<?php echo get_bloginfo('url'); ?>/achiv/">Наши достижения</a></p>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53">
+            <p><a href="<?php echo get_bloginfo('url'); ?>/contact/">контакты</a></p>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-footer">
+
+      </div>
+    </div>
     <div class="first-row">
       <div class="header-left">
         <div class="logo">
@@ -64,6 +132,9 @@ global $post;
           <p>8 (0232) 250-250</p>
         </div>
       </div>
+      <div class="burger-menu">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/burger-btn.svg" />
+      </div>
     </div>
     <div class="second-row">
       <div class="header-left">
@@ -86,4 +157,5 @@ global $post;
         </div>
       </div>
     </div>
+
 </header>

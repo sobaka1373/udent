@@ -29,7 +29,7 @@
     </div>
 
     <div class="hero-img">
-
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/main-hero.png">
     </div>
 
     <div class="virtual-container">

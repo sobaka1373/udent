@@ -53,16 +53,7 @@ body p {
   margin-left: auto;
 }
 
-.main-page-container .hero-img {
-  background-image: url(../img/main-hero.png);
-  background-repeat: no-repeat;
-  height: 445px;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-
-
+.main-page-container .hero-img img {
   width: 100vw; /* 100% ширины вьюпорта */
   position: relative;  /*включаем left */
   left: 50%; /* устанавливаем левый край non-container в центр container'a */
@@ -140,15 +131,6 @@ body p {
   display: flex;
   width: 325px;
   border: 1px solid #DBC9B1;
-  margin: 0 10px;
-}
-
-.service-element:first-child {
-  margin-left: 0;
-}
-
-.service-element:last-child {
-  margin-right: 0;
 }
 
 .service-element .right, .service-element .left {
@@ -165,6 +147,7 @@ body p {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  gap: 20px;
 }
 
 .doctors-container {
@@ -229,6 +212,7 @@ body p {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  gap: 20px;
 }
 
 .service-element img {
