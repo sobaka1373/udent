@@ -373,3 +373,70 @@ body p {
   margin-right: 13px;
   margin-top: 8px;
 }
+
+@media screen and (max-width: 1426px) {
+  .services-points .row, .insurance-container .row {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .doctors-block-grid .item-container {
+    width: 360px;
+    height: 455px;
+  }
+  .doctors-container .doctors-block-grid .item-container .doctor-name p {
+    font-size: 15px;
+  }
+  .doctors-container .doctors-block-grid .item-container .doctor-specialization p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .photo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .doctors-block-grid {
+    overflow: hidden;
+    overflow-x: scroll;
+    gap: 16px;
+  }
+  .about-us-container .about-us-info-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-page-container .intro-main {
+    display: block;
+  }
+  .main-page-container .header, .header {
+    font-size: 38px;
+  }
+  .main-page-container .intro-main .left p {
+    line-height: normal;
+  }
+  .main-page-container .virtual-container {
+    display: block;
+  }
+  .main-page-container .virtual-container .left, .main-page-container .virtual-container .right {
+    width: 100%;
+  }
+  .right, .main-page-container .virtual-container .right iframe {
+   margin: 0;
+  }
+  .doctors-header {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .services-points .row, .insurance-container .row {
+    grid-template-columns: auto;
+  }
+  .instagram-container .inst-data {
+    justify-content: start;
+  }
+}
