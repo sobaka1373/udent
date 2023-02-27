@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    gap: 20px;
 }
 
 .about-us-element {
@@ -32,7 +33,7 @@
     display: flex;
     width: 325px;
     border: 1px solid #DBC9B1;
-    margin: 0 10px;
+    /*margin: 0 10px;*/
     padding: 0;
 }
 
@@ -80,4 +81,59 @@
 
 .about-us-page-container .after-footer-row {
     margin: 11px auto 12px auto;
+}
+
+
+@media screen and (max-width: 1426px) {
+    .about-us-images-container .row {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .virtual-tour-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .about-us-page-container {
+        margin: 65px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .about-us-page-first {
+        display: block;
+    }
+    .about-us-page-first .right {
+        background: url(../img/about-us1.png);
+        height: 570px;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    .about-us-page-first .right img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .virtual-tour-container .left {
+        display: flex;
+    }
+
+    .virtual-tour-container .left iframe {
+        margin: 0 auto;
+    }
+
+    .virtual-tour-container .right {
+        display: flex;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-us-images-container .row {
+        grid-template-columns: auto;
+    }
 }
