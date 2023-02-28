@@ -90,6 +90,12 @@
     max-width: 90%;
 }
 
+@media screen and (max-width: 1400px) {
+    .price-container {
+        margin: 65px 40px 0 40px;
+    }
+}
+
 @media screen and (max-width: 1025px) {
     .price-container {
         margin-left: 5%;

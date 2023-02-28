@@ -196,9 +196,9 @@
     .doctors-block {
         padding: 0;
     }
-    .specialist-page .doctors-block-grid {
-        grid-template-columns: 315px 315px 315px 315px;
-    }
+    /*.specialist-page .doctors-block-grid {*/
+    /*    grid-template-columns: 315px 315px 315px 315px;*/
+    /*}*/
     .specialist-page .doctors-block-grid .item-container .doctor-name p {
         font-size: 14px;
     }

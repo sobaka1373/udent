@@ -64,8 +64,11 @@
 
     </div>
     <div class="right">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9731.034038056685!2d31.0078704!3d52.4291732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d46854aa8f3731%3A0xc70240fa34c4d3c3!2z0K4t0JTQtdC90YI!5e0!3m2!1sru!2sby!4v1677003567525!5m2!1sru!2sby" width="832" height="415" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="row-contact">
+      <div class="flex-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9731.034038056685!2d31.0078704!3d52.4291732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d46854aa8f3731%3A0xc70240fa34c4d3c3!2z0K4t0JTQtdC90YI!5e0!3m2!1sru!2sby!4v1677003567525!5m2!1sru!2sby" width="832" height="415" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+       <div class="row-contact">
         <div class="inst-info">
           <a href="https://www.instagram.com/u_klinik_gomel/" class="inst-svg">
             <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">

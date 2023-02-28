@@ -82,6 +82,24 @@
     text-decoration: none;
 }
 
-.contact-page-container .photo-container {
+.flex-container {
+    display: flex;
+}
 
+@media screen and (max-width: 1400px) {
+    .contact-page-container {
+        margin: 65px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-page-container .flex {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .row-contact {
+        display: block;
+    }
 }

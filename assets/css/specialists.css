@@ -67,6 +67,9 @@
     .specialist-page .doctors-block-grid {
         grid-template-columns: auto auto auto;
     }
+    .specialist-page {
+        margin: 65px 40px 0 40px;
+    }
 }
 @media screen and (max-width: 1450px) {
     .specialist-page .doctors-block-grid .item-container img {
@@ -87,6 +90,13 @@
     }
     .specialist-page .doctors-block-grid .item-container {
         max-height: 475px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .specialist-page .doctors-block-grid {
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        max-width: 750px;
     }
 }
 @media screen and (max-width: 1127px) {
@@ -114,21 +124,30 @@
         max-width: 750px;
     }
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 850px) {
     .specialist-page .doctors-block-grid {
-        max-width: 620px;
+        grid-template-columns: 100% !important;
+        max-width: 362px;
+        overflow-x: initial;
     }
+}
+
+
+@media screen and (max-width: 769px) {
+    /*.specialist-page .doctors-block-grid {*/
+    /*    max-width: 620px;*/
+    /*}*/
 }
 @media screen and (max-width: 640px) {
     .specialist-page .doctors-block-grid .item-container img {
         padding-right: 0;
     }
     .specialist-page .doctors-block-grid {
-        grid-template-columns: 100% !important;
-        max-width: 330px;
-        margin: auto;
-        grid-template-rows: auto !important;
-        overflow-x: hidden;
+        /*grid-template-columns: 100% !important;*/
+        /*max-width: 330px;*/
+        /*margin: auto;*/
+        /*grid-template-rows: auto !important;*/
+        /*overflow-x: hidden;*/
     }
     .specialist-page .doctors-block .doctors-block-header {
         font-size: 24px;
