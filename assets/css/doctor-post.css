@@ -196,6 +196,9 @@
     .doctors-block {
         padding: 0;
     }
+    .doctor-page-container {
+        margin: 65px 40px 0 40px;
+    }
     /*.specialist-page .doctors-block-grid {*/
     /*    grid-template-columns: 315px 315px 315px 315px;*/
     /*}*/
@@ -246,9 +249,9 @@
     .education-p-text {
         font-size: 14px;
     }
-    .doctor-main-container {
-        margin: 32px 0 0 51px;
-    }
+    /*.doctor-main-container {*/
+    /*    margin: 32px 0 0 51px;*/
+    /*}*/
     .doctor-main-right img {
         max-width: 502px;
         max-height: 523px;
@@ -312,14 +315,14 @@
     }
 }
 @media screen and (max-width: 905px) {
-    .doctor-main-container {
-        margin: 32px 0 0 35px;
-    }
+    /*.doctor-main-container {*/
+    /*    margin: 32px 0 0 35px;*/
+    /*}*/
 }
 @media screen and (max-width: 888px) {
-    .doctor-main-container {
-        margin: 32px 0 0 26px;
-    }
+    /*.doctor-main-container {*/
+    /*    margin: 32px 0 0 26px;*/
+    /*}*/
 }
 @media screen and (max-width: 880px) {
     .doctor-main-right img {
@@ -342,7 +345,7 @@
         margin-right: 20px;
     }
     .doctor-main-container {
-        margin: 32px 0 0 40px;
+        /*margin: 32px 0 0 40px;*/
     }
     .doctor-main-education {
         max-width: 416px;
@@ -354,7 +357,7 @@
         max-width: 339px;
     }
     .doctor-main-container-second {
-        margin: 22px 93px 0 50px;
+        margin: 22px auto 0 auto;
     }
     .doctor-professional-courses-title {
         font-size: 20px;
@@ -389,12 +392,21 @@
         display: block;
     }
     .mobile-photo-doctor .doctor-cover-img {
-        width: 400px;
-        height: 380px;
-        margin-top: 50px;
-        margin-left: 40px;
+        background-position-x: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 450px;
+        margin: 0 auto;
     }
 }
+@media screen and (max-width: 670px) {
+    .mobile-photo-doctor .doctor-cover-img {
+        background-position-x: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .education-p:nth-child(n + 5) {
         min-width: auto;

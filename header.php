@@ -125,6 +125,34 @@ global $post;
           </div>
           <div class="days-right">
             <div class="help-box"></div>
+            <div class="pop-helper">
+              <div class="helper-header">
+                <div class="close">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+                </div>
+              </div>
+              <div class="helper-content">
+                <div class="text-header">
+                  Режим работы на выходные:
+                </div>
+                <div class="text-main">
+                    <?php
+                    $time = get_field('time_table','options', false);
+                    foreach ($time as $item) {
+                        $start_time = substr($item['start_time'],0,-3);
+                        $end_time = substr($item['end_time'],0,-3);
+                        if (!empty($item['date'])) {
+                            $date_month = substr($item['date'],4, 2);
+                            $date_day = substr($item['date'],6, 2);
+                            echo "<p>$item[day_name] ($date_day.$date_month) $start_time-$end_time</p>";
+                        } else {
+                            echo "<p>$item[day_name]  $start_time-$end_time</p>";
+                        }
+                    }
+                    ?>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="header-tel">

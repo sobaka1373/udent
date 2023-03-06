@@ -12,8 +12,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">
@@ -182,8 +182,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">
@@ -349,8 +349,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">
@@ -434,8 +434,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">
@@ -463,8 +463,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">
@@ -504,8 +504,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">
@@ -537,8 +537,8 @@
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
-          <div class="arrow-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <div class="arrow-up" style="transform: rotate(-45deg);">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
         </div>
         <ul class="price-menu price-menu-hide">

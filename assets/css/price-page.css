@@ -33,6 +33,8 @@
 
 .price-container-ul .arrow-down, .price-container-ul .arrow-up {
     margin-left: auto;
+    width: 48px;
+    height: 48px;
 }
 .price-container-ul .arrow-down, .price-container-ul .arrow-down {
     margin-left: auto;
