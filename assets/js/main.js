@@ -47,12 +47,15 @@ jQuery(document).ready(function($) {
    });
 
 
-   $('.record').click(function (){
-      $('.pop-it-record').show();
-      $('.pop-helper').hide();
+   $('.btn-record').click(function (){
+      $('.pop-up-container').addClass('pop-up-active');
       $('body').addClass('hide-page');
-      $('.ellipse').css('box-shadow', 'unset');
-      $('.ellipse').css('background', 'unset');
+   });
+
+   $('.link-record').click(function (e) {
+      e.preventDefault();
+      $('.pop-up-container').addClass('pop-up-active');
+      $('body').addClass('hide-page');
    });
 
    $('.footer-whatsapp').click(function (e){
@@ -83,11 +86,11 @@ jQuery(document).ready(function($) {
    //    }
    // });
 
-   $('.record-header .close img').click(function (){
-      $('.pop-it-record').hide();
+   $('.pop-up-container .pop-up-header img').click(function (){
+      $('.pop-up-container').removeClass('pop-up-active');
       $('body').removeClass('hide-page');
-      $('.ellipse').css('box-shadow', '0px 5px 100px 100px rgb(253 253 253) inset');
-      $('.ellipse').css('background', 'rgba(254, 204, 0, 0.0784313725)');
+      // $('.ellipse').css('box-shadow', '0px 5px 100px 100px rgb(253 253 253) inset');
+      // $('.ellipse').css('background', 'rgba(254, 204, 0, 0.0784313725)');
    });
 
    $('.help-box').click(function (){
@@ -150,6 +153,10 @@ jQuery(document).ready(function($) {
 
       console.log(11);
    });
+
+   // $('.btn-record').click(function () {
+   //    $('.pop-up-container').addClass('pop-up-active');
+   // });
 
 
 });

@@ -86,9 +86,24 @@
     display: flex;
 }
 
+.inst-info a:hover p, .inst-info a:hover path {
+    color: #FFD31F;
+    fill: #FFD31F;
+}
+
+.phone-info a:hover p, .phone-info a:hover path {
+    color: #FFD31F;
+    fill: #FFD31F;
+}
+
+.email-info a:hover path, .email-info a:hover p {
+    color: #FFD31F;
+    stroke: #FFD31F;
+}
+
 @media screen and (max-width: 1400px) {
     .contact-page-container {
-        margin: 65px 40px 0 40px;
+        margin: 60px 20px 12px 20px;
     }
 }
 
@@ -101,5 +116,32 @@
 @media screen and (max-width: 850px) {
     .row-contact {
         display: block;
+    }
+    .contact-page-container .contact-header p {
+        margin-bottom: 20px;
+    }
+    .contact-page-container .contact-second-header p {
+        font-size: 18px;
+    }
+    .contact-page-container .contact-description p {
+        font-size: 16px;
+    }
+    .contact-page-container .contact-second-header, .contact-page-container .time, .contact-page-container .phone {
+        font-size: 18px;
+    }
+    .contact-page-container .contact-description p {
+        margin-bottom: 20px;
+    }
+    .contact-footer-container .right {
+        margin-left: auto;
+    }
+    .contact-footer-container {
+        margin-bottom: 20px;
+    }
+    .row-contact {
+        margin-bottom: 20px;
+    }
+    .row-contact .inst-info, .row-contact .email-info {
+        margin-bottom: 10px;
     }
 }

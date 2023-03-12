@@ -38,7 +38,7 @@ global $post;
     <div class="burger-menu1 hide-menu">
       <div class="burger-menu-header">
         <div class="close">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close.svg" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close3.svg" />
         </div>
       </div>
 <!--      <nav id="top-menu-nav">-->
@@ -56,7 +56,7 @@ global $post;
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-107">
             <p class="burger-sub-p"><a href="<?php echo get_bloginfo('url'); ?>/services/">Услуги</a>
-              <img class="burger-sub close-sub" src="<?php echo get_template_directory_uri(); ?>/assets/img/down-arrow.svg" /></p>
+              <img class="burger-sub close-sub" src="<?php echo get_template_directory_uri(); ?>/assets/img/down-arrow2.svg" /></p>
 
             <ul class="sub-menu-second">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108">
@@ -112,6 +112,9 @@ global $post;
           <div class="second-img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_dent.svg" alt="logo">
           </div>
+        </div>
+        <div class="mobile-logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mobile.svg" alt="logo">
         </div>
         <div class="header-address">
           <p>г. Гомель, ул. Кирова 19-2</p>
@@ -178,10 +181,12 @@ global $post;
       </div>
       <div class="header-right">
         <div class="header-btn">
+          <a class="link-record" href="#">
           <p>Записаться на прием</p>
           <div class="record-arrow">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/right-arrow.svg">
           </div>
+          </a>
         </div>
       </div>
     </div>

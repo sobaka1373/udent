@@ -37,11 +37,19 @@
 
 @media screen and (max-width: 1400px) {
     .insurance-page-container {
-        margin: 65px 40px 0 40px;
+        /*margin: 65px 40px 0 40px;*/
+        margin: 60px 20px 12px 20px;
     }
 }
 @media screen and (max-width: 1100px) {
     .insurance-page-container .insurance-text-container .insurance-text {
         display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .insurance-page-container .insurance-data p {
+        text-align: center;
+        margin-bottom: 20px;
     }
 }

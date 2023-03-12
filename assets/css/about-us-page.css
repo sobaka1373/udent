@@ -97,7 +97,10 @@
 
 @media screen and (max-width: 1400px) {
     .about-us-page-container {
-        margin: 65px 40px 0 40px;
+        margin: 60px 20px 12px 20px;
+    }
+    .about-us-header {
+        text-align: left;
     }
 }
 
@@ -134,6 +137,47 @@
 
 @media screen and (max-width: 800px) {
     .about-us-images-container .row {
-        grid-template-columns: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .about-us-images-container .row .about-us-element {
+        width: 158px;
+        height: 158px;
+    }
+
+    .about-us-page-container .about-us-header p {
+        margin-bottom: 20px;
+    }
+
+    .about-us-page-container .about-us-text p {
+        margin-bottom: 20px;
+    }
+
+    .about-us-page-first .right {
+        height: 307.22px;
+        background-position-x: unset;
+        background-repeat: round;
+    }
+
+    .about-us-element .text-element .main-text {
+        font-size: 32px;
+    }
+    .about-us-element .text-element .second-text {
+        font-size: 14px;
+        max-width: 150px;
+    }
+
+    .virtual-tour .virtual-header p {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .virtual-tour-container .left iframe {
+        height: 197px;
+    }
+
+    .virtual-tour-container .images-right {
+        margin-left: 0;
     }
 }

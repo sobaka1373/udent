@@ -12,68 +12,81 @@
       <div class="services-points">
         <div class="row">
           <div class="service-element">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg">
-            </div>
-            <div class="right">
-              <p>
-                Реставрация, виниры
-              </p>
-            </div>
+            <a href="#">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg">
+              </div>
+              <div class="right">
+                <p>
+                  Реставрация, виниры
+                </p>
+              </div>
+            </a>
           </div>
           <div class="service-element">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.svg">
-            </div>
-            <div class="right">
-              <p>
-                Протезирование
-              </p>
-            </div>
+            <a href="#">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.svg">
+              </div>
+              <div class="right">
+                <p>
+                  Протезирование
+                </p>
+              </div>
+            </a>
           </div>
           <div class="service-element">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service3.svg">
-            </div>
-            <div class="right">
-              <p>
-                Лечение
-              </p>
-            </div>
+            <a href="#">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service3.svg">
+              </div>
+              <div class="right">
+                <p>
+                  Лечение
+                </p>
+              </div>
+            </a>
           </div>
           <div class="service-element">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service4.svg">
-            </div>
-            <div class="right">
-              <p>
-                Отбеливание
-              </p>
-            </div>
+            <a href="#">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service4.svg">
+              </div>
+              <div class="right">
+                <p>
+                  Отбеливание
+                </p>
+              </div>
+            </a>
           </div>
         </div>
         <div class="row">
           <div class="service-element">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service5.svg">
-            </div>
-            <div class="right">
-              <p>
-                Рентген-диагностика
-              </p>
-            </div>
+            <a href="#">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service5.svg">
+              </div>
+              <div class="right">
+                <p>
+                  Рентген-диагностика
+                </p>
+              </div>
+            </a>
           </div>
           <div class="service-element">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service6.svg">
-            </div>
-            <div class="right">
-              <p>
-                Отбеливание зубов
-              </p>
-            </div>
+            <a href="#">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service6.svg">
+              </div>
+              <div class="right">
+                <p>
+                  Отбеливание зубов
+                </p>
+              </div>
+            </a>
           </div>
           <div class="service-element">
+            <a href="#">
             <div class="left">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service7.svg">
             </div>
@@ -82,14 +95,17 @@
                 SPA-уход <br> для зубов
               </p>
             </div>
+            </a>
           </div>
           <div class="service-element">
+            <a class="link-record" href="#">
             <div class="virtual-btn">
-              <p>подробнее</p>
+              <p>Записаться на прием</p>
               <div class="record-arrow">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/right-arrow.svg">
               </div>
             </div>
+            </a>
           </div>
         </div>
       </div>

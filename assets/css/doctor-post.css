@@ -107,7 +107,7 @@
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 150%;
     color: #02111B;
     margin-top: 10px;
@@ -143,6 +143,7 @@
 .internships-abroad-p p{
     max-width: 585px;
     margin: 10px 0 0 0;
+    font-size: 18px;
 }
 .internships-abroad-p-text {
     margin: 0;
@@ -213,6 +214,9 @@
     }
 }
 @media screen and (max-width: 1183px) {
+    .doctor-page-container {
+        margin: 0 20px 12px 20px;
+    }
     .doctor-main-container {
         /*margin-left: calc(60% - 51vw);*/
     }
@@ -329,6 +333,33 @@
         max-width: 374px;
         max-height: 385px;
     }
+    .doctor-main-container {
+        margin-top: 20px;
+    }
+    .doctor-main-specialization p {
+        margin-top: 20px;
+    }
+    .mobile-photo-doctor .doctor-cover-img {
+        height: auto;
+    }
+    .doctor-main-education .education-p {
+        margin-left: 0;
+    }
+
+    .doctor-professional-courses-title {
+        margin-left: 0;
+    }
+    .doctor-main-container-second {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .doctor-professional-courses-ul {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .internships-abroad-p p {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 800px) {
     .doctor-main-right img {
@@ -357,7 +388,7 @@
         max-width: 339px;
     }
     .doctor-main-container-second {
-        margin: 22px auto 0 auto;
+        /*margin: 22px auto 0 auto;*/
     }
     .doctor-professional-courses-title {
         font-size: 20px;
@@ -375,7 +406,7 @@
         margin: 0;
     }
     .doctor-main-education .education-p {
-        margin-left: -26px;
+        /*margin-left: -26px;*/
     }
 }
 @media screen and (max-width: 700px) {
@@ -392,10 +423,10 @@
         display: block;
     }
     .mobile-photo-doctor .doctor-cover-img {
-        background-position-x: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 450px;
+        /*background-position-x: center;*/
+        /*background-size: contain;*/
+        /*background-repeat: no-repeat;*/
+        /*height: 450px;*/
         margin: 0 auto;
     }
 }
@@ -415,7 +446,7 @@
 @media screen and (max-width: 500px) {
     .mobile-photo-doctor .doctor-cover-img {
         width: auto;
-        height: 450px;
+        /*height: 450px;*/
         margin-top: 10px;
         margin-left: 0;
     }
@@ -439,7 +470,7 @@
         margin: 15px 0 0 0;
     }
     .doctor-main-container {
-        margin: 20px 20px 0 20px;
+        /*margin: 20px 20px 0 20px;*/
     }
     .doctor-main-right {
         display: none;
@@ -451,7 +482,7 @@
         font-size: 20px;
     }
     .doctor-main-education .education-p {
-        margin-left: -10px;
+        /*margin-left: -10px;*/
     }
     .doctor-main-education .education-p img, .work_experience-p img {
         width: 20px;
@@ -467,7 +498,7 @@
     }
 
     .doctor-main-container-second {
-        margin: 30px 20px 0 20px;
+        /*margin: 30px 20px 0 20px;*/
     }
     .doctor-professional-courses-text {
         max-width: 304px;

@@ -27,10 +27,7 @@ Template Post Type: post, doctor_type
         $doctor['internships_abroad'] = get_field('doctor_internships_abroad', $post->ID, false);
         $doctor['work_experience'] = get_field('doctor_work_experience', $post->ID, false);
         ?>
-      <div class="mobile-photo-doctor">
-        <div class="doctor-cover-img" style="background-image: url(<?php echo $doctor['photo'][0]; ?>)"></div>
-        <!--    <img src="--><?php //echo $doctor['photo'][0]; ?><!--" alt="" />-->
-      </div>
+
       <div class="doctor-main-container">
         <div class="doctor-main-left">
           <div class="doctor-main-name">
@@ -52,6 +49,13 @@ Template Post Type: post, doctor_type
                 </p>
               </div>
             <?php endif; ?>
+
+          <div class="mobile-photo-doctor">
+            <div class="doctor-cover-img" >
+              <img src="<?php echo $doctor['photo'][0]; ?>" />
+            </div>
+          </div>
+
             <?php if(!empty($doctor['education'])): ?>
               <div class="doctor-main-education">
                 <p class="doctor-main-education-title">

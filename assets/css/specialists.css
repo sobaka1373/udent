@@ -27,19 +27,19 @@
 .specialist-page .doctors-block-grid .item-container {
     max-height: 522px;
 }
-.specialist-page .doctors-block-grid .item-container .doctor-name p, .doctors-block .doctors-block-grid .item-container .doctor-name p {
-    font-family: IBMPlex, sans-serif;
-    margin-bottom: 5px;
-    font-size: 16px;
-}
-.specialist-page .doctors-block-grid .item-container .doctor-specialization p, .doctors-block .doctors-block-grid .item-container .doctor-specialization p {
-    font-family: IBMPlex, sans-serif;
-    margin-bottom: 5px;
-    font-size: 16px;
-}
-.specialist-page .doctors-block-grid .item-container .doctor-name {
-    min-width: 316px;
-}
+/*.specialist-page .doctors-block-grid .item-container .doctor-name p, .doctors-block .doctors-block-grid .item-container .doctor-name p {*/
+/*    font-family: IBMPlex, sans-serif;*/
+/*    margin-bottom: 5px;*/
+/*    font-size: 16px;*/
+/*}*/
+/*.specialist-page .doctors-block-grid .item-container .doctor-specialization p, .doctors-block .doctors-block-grid .item-container .doctor-specialization p {*/
+/*    font-family: IBMPlex, sans-serif;*/
+/*    margin-bottom: 5px;*/
+/*    font-size: 16px;*/
+/*!*}*!*/
+/*.specialist-page .doctors-block-grid .item-container .doctor-name {*/
+/*    min-width: 316px;*/
+/*}*/
 .doctors-block-grid .item-container a {
     text-decoration: none;
     color: #02111B;
@@ -68,7 +68,7 @@
         grid-template-columns: auto auto auto;
     }
     .specialist-page {
-        margin: 65px 40px 0 40px;
+        margin: 60px 20px 12px 20px;
     }
 }
 @media screen and (max-width: 1450px) {
@@ -90,6 +90,11 @@
     }
     .specialist-page .doctors-block-grid .item-container {
         max-height: 475px;
+    }
+
+    .info-doctor {
+        min-height: 100px;
+        text-align: left;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -129,6 +134,11 @@
         grid-template-columns: 100% !important;
         max-width: 362px;
         overflow-x: initial;
+    }
+
+    .specialist-page .doctors-block-grid .item-container {
+        background-position: center;
+        margin: auto;
     }
 }
 

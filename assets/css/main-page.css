@@ -42,6 +42,7 @@ body p {
 
 .main-page-container .intro-main .right p {
   max-width: 287px;
+  font-size: 18px;
 }
 
 .main-page-container .intro-main .right {
@@ -273,7 +274,7 @@ body p {
   text-align: left;
 }
 
-.photo-container .contact-info .mobile-container, .photo-container .contact-info .phone-container {
+.contact-info .mobile-container,  .contact-info .phone-container {
   display: flex;
   padding: 13px 15px 13px 15px;
   background: #F3F3F3;
@@ -281,11 +282,11 @@ body p {
   margin: 12px 0;
 }
 
-.photo-container .contact-info .mobile-container p,  .photo-container .contact-info .phone-container p {
+.contact-info .mobile-container p, .contact-info .phone-container p {
   margin: 0 0 0 13px;
 }
 
-.photo-container .contact-info .text-container {
+.contact-info .text-container {
   background: #F3F3F3;
   border-radius: 5px;
   padding: 13px 15px 13px 38px;
@@ -320,6 +321,7 @@ body p {
 
 .about-us-container .about-us-info-container .list-container .element p, .about-us-list .list-container .element p {
   margin: 0;
+  font-size: 18px;
 }
 
 .about-us-container .about-us-info-container .list-container .element img, .about-us-list .list-container .element img {
@@ -329,6 +331,7 @@ body p {
 .about-us-container .about-us-info-container .about-us-info-text {
   max-width: 530px;
   margin-top: 22px;
+  font-size: 18px;
 }
 
 .virtual-btn {
@@ -375,6 +378,108 @@ body p {
   margin-top: 8px;
 }
 
+.service-element .virtual-btn p {
+  margin: 0;
+}
+
+.pop-up-container {
+  display: none;
+  padding: 50px 48px;
+  background: #FDFDFD;
+
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 40px 70px rgba(15, 99, 146, 0.02), 0px 22.3363px 17.869px rgba(15, 99, 146, 0.0417275), 0px 6.6501px 5.32008px rgba(15, 99, 146, 0.0282725);
+  border-radius: 10px;
+}
+
+.pop-up-container .pop-up-header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pop-up-container .pop-up-header img {
+  margin: 15px 15px 0 auto;
+}
+
+.pop-up-container .pop-up-content .contact-info  .contact-header {
+  margin-bottom: 35px;
+}
+
+.pop-up-container .pop-up-content .contact-info  .contact-header, .pop-up-container .pop-up-content .contact-info .contact-footer {
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 120%;
+  color: #02111B;
+}
+
+.pop-up-container .pop-up-content .contact-info .contact-footer {
+  margin-top: 35px;
+}
+
+.pop-up-active {
+  display: block;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -240px;
+  margin-top: -200px;
+}
+
+.service-element:hover {
+  border: none;
+  background: #FDFDFD;
+  box-shadow: -5.37297px 0px 9.21081px rgba(190, 190, 190, 0.07), 4.60541px 9.21081px 9.21081px rgba(122, 122, 122, 0.07);
+}
+
+.service-element a:active > .right p {
+  border: none;
+  color: #FECC00 !important;
+}
+
+.service-element a:active > .virtual-btn p {
+  border: none;
+  color: #FECC00 !important;
+}
+
+
+.service-element a {
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+}
+
+.mobile-contact-photo {
+  display: none;
+}
+
+.instagram-container .inst-data a {
+  display: flex;
+  text-decoration: none;
+}
+
+.instagram-container .inst-data a:hover p, .instagram-container .inst-data a:hover path {
+  color: #FFD31F;
+  fill: #FFD31F;
+}
+
+.social-icons .footer-inst a:hover path,.social-icons .footer-whatsapp a:hover path {
+  fill: #FFD31F;
+}
+
+.social-icons .footer-email a:hover path {
+ stroke: #FFD31F;
+}
+
+.virtual-btn a {
+  display: flex;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1426px) {
   .services-points .row, .insurance-container .row {
     display: grid;
@@ -394,7 +499,32 @@ body p {
 
 @media screen and (max-width: 1330px) {
   .photo-container {
-    display: none;
+    background: none;
+    position: inherit;
+    height: auto;
+    width: auto;
+    margin: 0;
+    transform: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-container .contact-info {
+    /*display: flex;*/
+    position: inherit;
+  }
+
+  .mobile-contact-photo {
+    display: block;
+
+  }
+
+  .mobile-contact-photo img {
+    position: relative;
+    width: 100vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
   }
 }
 
@@ -403,7 +533,13 @@ body p {
     overflow: hidden;
     overflow-x: scroll;
     gap: 16px;
+    justify-content: center;
   }
+
+  .doctors-block-grid a:nth-child(2), .doctors-block-grid a:nth-child(3) {
+    display: none;
+  }
+
   .about-us-container .about-us-info-container {
     display: block;
   }
@@ -435,9 +571,138 @@ body p {
 
 @media screen and (max-width: 800px) {
   .services-points .row, .insurance-container .row {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
   }
   .instagram-container .inst-data {
     justify-content: start;
+  }
+
+  .main-page-container .header, .header {
+    font-size: 30px;
+  }
+
+  .main-page-container .intro-main .left p {
+    margin-bottom: 16px;
+  }
+
+  .main-page-container .intro-main .right p {
+    max-width: 291px;
+  }
+
+  .main-page-container .intro-main .right {
+    margin: 0;
+  }
+
+  .main-page-container .hero-img img {
+    height: 327px;
+    width: auto;
+  }
+
+  .main-page-container .virtual-container {
+    margin-top: 60px;
+  }
+
+  .main-page-container {
+    margin: 60px 20px 12px 20px;
+  }
+
+  .service-element {
+    width: 158px;
+    height: 158px;
+  }
+  .service-element a {
+    display: block;
+  }
+
+  .service-element .left {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .service-element .right {
+    margin-bottom: 15px;
+  }
+
+  .service-element .right p {
+    max-width: none;
+  }
+  .services-points .row:last-child .service-element:last-child a {
+    display: flex;
+  }
+  .doctors-container {
+    margin: 60px 0 0 0;
+    text-align: center;
+  }
+  .doctors-header .virtual-btn {
+    display: none;
+  }
+  .about-us-container {
+    margin: 60px auto 0 auto;
+  }
+  .about-us-header {
+    text-align: center;
+  }
+  .about-us-container .about-us-info-container .list-container .element img, .about-us-list .list-container .element img {
+    margin-right: 15px;
+  }
+  .about-us-container .about-us-info-container .virtual-btn {
+    display: none;
+  }
+
+  .instagram-container .row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: normal;
+  }
+
+  .instagram-container .row .element img {
+    max-width: 159px;
+    margin-bottom: 15px;
+  }
+
+  .instagram-container .inst-data svg {
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+
+  .instagram-container .inst-data p {
+    font-size: 24.4287px;
+  }
+
+  .instagram-container {
+    margin: 27px auto 60px auto;
+  }
+  .service-element img {
+    max-height: 55px;
+  }
+  .footer .social-icons {
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .photo-container .contact-info {
+    padding: 30px 34px;
+  }
+
+  .photo-container .contact-info .contact-header p, .photo-container .contact-info .contact-footer p {
+    font-size: 30px;
+  }
+
+  .contact-info .mobile-container p, .contact-info .phone-container p {
+    font-size: 16px;
+  }
+
+  .info-doctor {
+    margin-top: 100%;
+  }
+
+  .doctors-container .doctors-block-grid .item-container .doctor-name p {
+    font-size: 14px;
+  }
+
+  .doctors-block-grid .item-container {
+    width: 335px;
+    height: 466px;
+    background-size: cover;
   }
 }

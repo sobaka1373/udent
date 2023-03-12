@@ -8,7 +8,40 @@
 
 $test = is_front_page();
 ?>
-
+<div class="pop-up-container">
+  <div class="pop-up-header">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/close3.svg" />
+  </div>
+  <div class="pop-up-content">
+    <div class="contact-info">
+      <div class="contact-header">
+        <p>
+          Записаться на прием<br>
+          можно по номеру:
+        </p>
+      </div>
+      <div class="mobile-container">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile.svg">
+        <p>+375 (44) 700-22-55</p>
+      </div>
+      <div class="phone-container">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg">
+        <p>+375 (232) 25-02-50</p>
+      </div>
+      <div class="text-container">
+        <p>
+          Мы находимся по адресу:<br>
+          г. Гомель, ул. Кирова 19-2
+        </p>
+      </div>
+      <div class="contact-footer">
+        <p>
+          Ждем Вас!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <footer class="footer">
   <div class="footer-container">
     <div class="column1">
@@ -103,9 +136,9 @@ $test = is_front_page();
         </div>
         <div class="footer-email">
           <a href="mailto:info@u-clinic.by" class="email-svg">
-            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M13.2104 16.2617L22.1472 22.5174L31.0839 16.2617" stroke="black" stroke-width="1.42988" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M4.27441 30.559V12.6855C4.27441 11.7375 4.65103 10.8282 5.32142 10.1578C5.9918 9.48746 6.90104 9.11084 7.8491 9.11084H36.4466C37.3947 9.11084 38.3039 9.48746 38.9743 10.1578C39.6447 10.8282 40.0213 11.7375 40.0213 12.6855V30.559C40.0213 31.507 39.6447 32.4163 38.9743 33.0867C38.3039 33.7571 37.3947 34.1337 36.4466 34.1337H7.8491C6.90104 34.1337 5.9918 33.7571 5.32142 33.0867C4.65103 32.4163 4.27441 31.507 4.27441 30.559Z" stroke="black" stroke-width="1.42988"/>
+            <svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.2106 16.0884L22.1473 22.3441L31.084 16.0884" stroke="black" stroke-width="1.42988" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4.27429 30.3858V12.5123C4.27429 11.5642 4.65091 10.655 5.32129 9.98462C5.99168 9.31424 6.90092 8.93762 7.84898 8.93762H36.4465C37.3946 8.93762 38.3038 9.31424 38.9742 9.98462C39.6446 10.655 40.0212 11.5642 40.0212 12.5123V30.3858C40.0212 31.3338 39.6446 32.2431 38.9742 32.9134C38.3038 33.5838 37.3946 33.9605 36.4465 33.9605H7.84898C6.90092 33.9605 5.99168 33.5838 5.32129 32.9134C4.65091 32.2431 4.27429 31.3338 4.27429 30.3858Z" stroke="black" stroke-width="1.42988"/>
             </svg>
           </a>
         </div>
