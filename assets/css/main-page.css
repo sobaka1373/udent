@@ -447,6 +447,10 @@ body p {
 }
 
 
+.service-element a:active > .virtual-btn path {
+  fill: #FECC00 !important;
+}
+
 .service-element a {
   display: flex;
   text-decoration: none;
@@ -478,6 +482,14 @@ body p {
 .virtual-btn a {
   display: flex;
   text-decoration: none;
+}
+
+.element-mobile {
+  display: none;
+}
+
+.doctors-container .doctors-block-grid a:hover .item-container {
+  filter: drop-shadow(4.42238px 4.67247px 7.17334px rgba(10, 44, 81, 0.04));
 }
 
 @media screen and (max-width: 1426px) {
@@ -520,11 +532,7 @@ body p {
   }
 
   .mobile-contact-photo img {
-    position: relative;
-    width: 100vh;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30px;
+    width: 100%;
   }
 }
 
@@ -652,7 +660,8 @@ body p {
   .instagram-container .row {
     display: grid;
     grid-template-columns: auto auto;
-    gap: normal;
+    gap: 20px;
+    justify-content: center;
   }
 
   .instagram-container .row .element img {
@@ -704,5 +713,22 @@ body p {
     width: 335px;
     height: 466px;
     background-size: cover;
+  }
+  .insurance-container .service-element a {
+    display: flex;
+  }
+  .element-mobile {
+    display: block;
+    margin: auto 0 auto 20px;
+  }
+  .element-mobile a p {
+    max-width: 90px;
+    margin: 0;
+  }
+  .element-mobile a .record-arrow {
+    margin-top: 24px;
+  }
+  .element-mobile a .record-arrow img {
+    margin-left: 8px;
   }
 }

@@ -64,8 +64,8 @@
           </p>
         </div>
       </div>
-      <div class="about-us-element">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us2.png">
+      <div class="about-us-element image-element1">
+<!--        <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/about-us2.png">-->
       </div>
       <div class="about-us-element">
         <div class="text-element">
@@ -77,13 +77,13 @@
           </p>
         </div>
       </div>
-      <div class="about-us-element">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us3.png">
+      <div class="about-us-element image-element2">
+<!--        <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/about-us3.png">-->
       </div>
     </div>
     <div class="row">
-      <div class="about-us-element">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us4.png">
+      <div class="about-us-element image-element3">
+<!--        <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/about-us4.png">-->
       </div>
       <div class="about-us-element">
         <div class="text-element">

@@ -64,12 +64,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance7.svg">
       </div>
       <div class="service-element">
-        <div class="virtual-btn">
-          <p>подробнее</p>
-          <div class="record-arrow">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/right-arrow.svg">
-          </div>
-        </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance8.svg">
       </div>
     </div>
   </div>

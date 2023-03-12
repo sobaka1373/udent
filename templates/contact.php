@@ -161,8 +161,8 @@
       </div>
     </div>
   </div>
+</div>
   <div class="mobile-contact-photo">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-img2.png" />
   </div>
-</div>
 <?php get_footer(); ?>

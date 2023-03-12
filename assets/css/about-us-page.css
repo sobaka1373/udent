@@ -83,6 +83,23 @@
     margin: 11px auto 12px auto;
 }
 
+.image-element1 {
+    background-image: url(../img/about-us2.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.image-element2 {
+    background-image: url(../img/about-us3.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.image-element3 {
+    background-image: url(../img/about-us4.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
 
 @media screen and (max-width: 1426px) {
     .about-us-images-container .row {
@@ -179,5 +196,9 @@
 
     .virtual-tour-container .images-right {
         margin-left: 0;
+    }
+
+    .virtual-tour-container .right img {
+        width: 100%;
     }
 }

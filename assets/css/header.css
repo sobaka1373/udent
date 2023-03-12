@@ -122,6 +122,20 @@ header #top-menu li a:hover, footer #bottom-menu li a:hover {
     margin-left: 14px;
 }
 
+.header-btn .record-arrow svg, .virtual-btn .record-arrow svg {
+    display: block;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+/*.record-arrow-svg {*/
+/*    background-image: url(../img/right-arrow.svg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: right;*/
+/*    width: 22px;*/
+/*    height: 24px;*/
+/*}*/
+
 .second-row .header-right {
     margin-right: 177px;
 }
@@ -511,8 +525,9 @@ nav li p {
     background: #FFD93F;
 }
 
-.virtual-btn a:hover p {
+.virtual-btn a:hover p,.virtual-btn a:hover path {
     color: #FFD31F;
+    fill: #FFD31F;
 }
 
 @media screen and (max-width: 1400px) {

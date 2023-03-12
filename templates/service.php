@@ -32,6 +32,8 @@ $service['service_photo'] =  wp_get_attachment_image_src( $service['service_phot
       <div class="page-content2-container">
           <?php echo $service['page_content2']; ?>
       </div>
+
+      <div class="after-footer-row"></div>
     </div>
 </article><!-- #post-<?php the_ID(); ?> -->
 
