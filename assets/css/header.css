@@ -17,6 +17,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.header-container .first-row .logo a {
+    display: flex;
+}
 .header-container .first-row .logo .second-img {
     margin-left: 10px;
 }
@@ -617,8 +620,7 @@ nav li p {
         font-size: 30px !important;
     }
     .pop-up-container {
-        margin-left: 20px !important;
-        left: 0 !important;
+        margin-left: -200px !important;
     }
 }
 

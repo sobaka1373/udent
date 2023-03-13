@@ -523,16 +523,32 @@ body p {
 
   .photo-container .contact-info {
     /*display: flex;*/
+    display: none;
     position: inherit;
   }
 
   .mobile-contact-photo {
     display: block;
-
+    background-image:  url(../img/footer-img3.png);
+    /*background-repeat: no-repeat;*/
+    height: 768px;
+    background-repeat: round;
+    /*-moz-background-size: 100%;*/
+    /*-webkit-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    /*background-size: 100%;*/
   }
 
   .mobile-contact-photo img {
-    width: 100%;
+    /*width: 100%;*/
+  }
+
+  .mobile-contact-photo .photo-container {
+    display: flex;
+    padding: 60px 20px 12px 20px;
+  }
+  .mobile-contact-photo .photo-container .contact-info {
+   display: block;
   }
 }
 
@@ -730,5 +746,14 @@ body p {
   }
   .element-mobile a .record-arrow img {
     margin-left: 8px;
+  }
+
+  .main-page-container .intro-main .right p,
+  .main-page-container .virtual-container .virtual-description,
+  .about-us-container .about-us-info-container .list-container .element p,
+  .about-us-list .list-container .element p,
+  .about-us-container .about-us-info-container .about-us-info-text
+  {
+    font-size: 16px;
   }
 }

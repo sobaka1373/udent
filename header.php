@@ -63,7 +63,7 @@ global $post;
                 <p><a href="<?php echo get_bloginfo('url'); ?>/services/implatation/">Имплантация</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/protezirovanie/">Протезирование</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/prosthetics2/">Протезирование</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83">
                 <p><a href="<?php echo get_bloginfo('url'); ?>/services/treatment/">Лечение под микроскопом</a></p>
@@ -91,9 +91,6 @@ global $post;
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52">
             <p><a href="<?php echo get_bloginfo('url'); ?>/price/">цены</a></p>
           </li>
-          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49">
-            <p><a href="<?php echo get_bloginfo('url'); ?>/achiv/">Наши достижения</a></p>
-          </li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53">
             <p><a href="<?php echo get_bloginfo('url'); ?>/contact/">контакты</a></p>
           </li>
@@ -106,15 +103,19 @@ global $post;
     <div class="first-row">
       <div class="header-left">
         <div class="logo">
-          <div class="first-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_u.svg" alt="logo">
-          </div>
-          <div class="second-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_dent.svg" alt="logo">
-          </div>
+          <a href="<?php echo get_bloginfo('url'); ?>">
+            <div class="first-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_u.svg" alt="logo">
+            </div>
+            <div class="second-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_dent.svg" alt="logo">
+            </div>
+          </a>
         </div>
         <div class="mobile-logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mobile.svg" alt="logo">
+          <a href="<?php echo get_bloginfo('url'); ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mobile.svg" alt="logo">
+          </a>
         </div>
         <div class="header-address">
           <p>г. Гомель, ул. Кирова 19-2</p>
