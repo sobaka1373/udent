@@ -17,11 +17,11 @@
       </div>
       <div class="contact-description">
         <p>
-          Адрес: г. Гомель, ул. Каменщикова, 36, пом. 4
-          УНП: 491326913
-          Свидетельство о регистрации от 21.07.2014
-          Регистрирующий орган: Гомельский Горисполком
-          Зарегистрирован в Торговом реестре 21.07.2014
+          Адрес: г. Гомель, ул. Каменщикова, 36, пом. 4 <br>
+          УНП 491067579 <br>
+          Свидетельство о регистрации от 21.07.2014 <br>
+          Регистрирующий орган: Гомельский Горисполком <br>
+          Зарегистрирован в Торговом реестре 21.07.2014 <br>
         </p>
       </div>
       <div class="contact-footer-container">
@@ -80,10 +80,14 @@
             </p>
             <div class="numbers">
               <p>
-                +375 (44) 700-22-55
+                <a href="tel:+375447002255">
+                  +375 (44) 700-22-55
+                </a>
               </p>
               <p>
-                8 (0232) 250-250
+                <a href="tel:80232250250">
+                  8 (0232) 250-250
+                </a>
               </p>
             </div>
           </div>
@@ -141,12 +145,16 @@
         </p>
       </div>
       <div class="mobile-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile.svg">
-        <p>+375 (44) 700-22-55</p>
+        <a href="tel:+375447002255">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile.svg">
+          <p>+375 (44) 700-22-55</p>
+        </a>
       </div>
       <div class="phone-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg">
-        <p>+375 (232) 25-02-50</p>
+        <a href="tel:+375232250250">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg">
+          <p>+375 (232) 25-02-50</p>
+        </a>
       </div>
       <div class="text-container">
         <p>

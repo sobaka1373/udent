@@ -24,7 +24,7 @@
             </a>
           </div>
           <div class="service-element">
-            <a href="#">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/prosthetics2/">
               <div class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.svg">
               </div>
@@ -68,7 +68,7 @@
               </div>
               <div class="right">
                 <p>
-                  Рентген-диагностика
+                  Виниры
                 </p>
               </div>
             </a>

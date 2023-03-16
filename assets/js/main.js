@@ -49,13 +49,15 @@ jQuery(document).ready(function($) {
 
    $('.btn-record').click(function (){
       $('.pop-up-container').addClass('pop-up-active');
-      $('body').addClass('hide-page');
+      $('#myModal').modal({backdrop: true});
+      // $('body').addClass('hide-page');
    });
 
    $('.link-record').click(function (e) {
       e.preventDefault();
       $('.pop-up-container').addClass('pop-up-active');
-      $('body').addClass('hide-page');
+      $('#myModal').modal({backdrop: true});
+      // $('body').addClass('hide-page');
    });
 
    $('.footer-whatsapp').click(function (e){

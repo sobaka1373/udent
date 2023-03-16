@@ -459,6 +459,10 @@ nav li p {
     transform: rotate(360deg) !important;
 }
 
+.footer .pop-helper {
+    margin-top: -260px;
+}
+
 .pop-helper {
     display: none;
     position: absolute;
@@ -496,7 +500,7 @@ nav li p {
     margin: 15px 15px 0 auto;
 }
 .helper-content {
-    margin: 0px 40px 30px 30px;
+    margin: 30px 40px 30px 30px;
 }
 .helper-content  .text-main {
     margin-top: 20px;
@@ -531,6 +535,11 @@ nav li p {
 .virtual-btn a:hover p,.virtual-btn a:hover path {
     color: #FFD31F;
     fill: #FFD31F;
+}
+
+.header-container .first-row .header-right .header-tel p a {
+   text-decoration: none;
+    color: #02111B;
 }
 
 @media screen and (max-width: 1400px) {

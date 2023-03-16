@@ -48,6 +48,11 @@
     margin: 0;
 }
 
+.contact-page-container .numbers p a {
+    color: #02111B;
+    text-decoration: none;
+}
+
 .contact-page-container .time-work .days {
     display: flex;
 }
@@ -110,6 +115,12 @@
 @media screen and (max-width: 1200px) {
     .contact-page-container .flex {
         display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-footer-container .right {
+        margin-left: auto;
     }
 }
 
