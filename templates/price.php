@@ -343,194 +343,194 @@
           </li>
         </ul>
       </div>
-      <div class="level-menu-first-p">
-        <div class="price-container-ul">
-          <div class="text">Хирургическая стоматология</div>
-          <div class="arrow-down">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-          <div class="arrow-up" style="transform: rotate(-45deg);">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-        </div>
-        <ul class="price-menu price-menu-hide">
-          <li>
-            <div class="li-text">Простое удаление однокорневого зуба</div>
-            <div class="li-price">41,28 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Простое удаление многокорневого зуба</div>
-            <div class="li-price">51,83 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Сложное удаление однокорневого зуба</div>
-            <div class="li-price">79,98 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Сложное удаление многокорневого зуба</div>
-            <div class="li-price">109,28 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Простое удаление ретенированного зуба</div>
-            <div class="li-price">111,39 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Сложное удаление ретенированного зуба</div>
-            <div class="li-price">143,44 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Цистэктомия без резекции верхушки корня</div>
-            <div class="li-price">179,35 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Цистэктомия с резекцией верхушки корня в области верхней челюсти</div>
-            <div class="li-price">204,06 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Цистэктомия с резекцией верхушки корня в области нижней челюсти</div>
-            <div class="li-price">216,58 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Коррекция гребня альвеолярного отростка (области 1 зуба)</div>
-            <div class="li-price">44,84 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Пластика уздечки</div>
-            <div class="li-price">150,43 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Периостомия</div>
-            <div class="li-price">43,34 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Наложение швов</div>
-            <div class="li-price">21,39 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Перикоронароэктомия</div>
-            <div class="li-price">44,28 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Применение коллапана</div>
-            <div class="li-price">96,24 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Применение остеоматрикса</div>
-            <div class="li-price">135,70 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Удаление ретенционной кисты</div>
-            <div class="li-price">64,38 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Лечение альвеолита одной лунки зуба</div>
-            <div class="li-price">16,30 руб.</div>
-          </li>
-        </ul>
-      </div>
-      <div class="level-menu-first-p">
-        <div class="price-container-ul">
-          <div class="text">Имплантация</div>
-          <div class="arrow-down">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-          <div class="arrow-up" style="transform: rotate(-45deg);">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-        </div>
-        <ul class="price-menu price-menu-hide">
-          <li>
-            <div class="li-text">Имплантация 1 зуба (имплант AnyOne)</div>
-            <div class="li-price">1 031,76 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Имплантация 1 зуба (имплант AnyRidge)</div>
-            <div class="li-price">1 279,76 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Имплантация 1 зуба (имплант SLA)</div>
-            <div class="li-price">1 441,76 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Имплантация 1 зуба (имплант SLActive)</div>
-            <div class="li-price">1 569,76 руб.</div>
-          </li>
-        </ul>
-      </div>
-      <div class="level-menu-first-p">
-        <div class="price-container-ul">
-          <div class="text">Ортодонтическое лечение</div>
-          <div class="arrow-down">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-          <div class="arrow-up" style="transform: rotate(-45deg);">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-        </div>
-        <ul class="price-menu price-menu-hide">
-          <li>
-            <div class="li-text">Снятие слепков (2 челюсти)</div>
-            <div class="li-price">54,36 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Установка брекет-системы (одна челюсть)</div>
-            <div class="li-price">272,24 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Коррекция брекет-системы (одна челюсть)</div>
-            <div class="li-price">71,85 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Снятие брекет-системы (одна челюсть)</div>
-            <div class="li-price">225,28 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Коррекция пластинки ортодонтической</div>
-            <div class="li-price">33,56 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Установка ретейнеров (из расчета на 6 зубов)</div>
-            <div class="li-price">114,93 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Снятие ретейнеров (из расчета на 6 зубов)</div>
-            <div class="li-price">150,03 руб.</div>
-          </li>
-        </ul>
-      </div>
-      <div class="level-menu-first-p">
-        <div class="price-container-ul">
-          <div class="text">Рентгенологическая диагностика</div>
-          <div class="arrow-down">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-          <div class="arrow-up" style="transform: rotate(-45deg);">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
-          </div>
-        </div>
-        <ul class="price-menu price-menu-hide">
-          <li>
-            <div class="li-text">Радиовизиография с распечаткой изображения</div>
-            <div class="li-price">7,67 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Ортопантомография</div>
-            <div class="li-price">13,62 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Конусно-лучевая компьютерная томография (КЛКТ) с записью изображения на диск</div>
-            <div class="li-price">44,10 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">ТРГ (Телерентгенограмма)</div>
-            <div class="li-price">36,24 руб.</div>
-          </li>
-          <li>
-            <div class="li-text">Конусно-лучевая компьютерная томография (КЛКТ) с записью на флеш-карту</div>
-            <div class="li-price">55,90 руб.</div>
-          </li>
-        </ul>
-      </div>
+<!--      <div class="level-menu-first-p">-->
+<!--        <div class="price-container-ul">-->
+<!--          <div class="text">Хирургическая стоматология</div>-->
+<!--          <div class="arrow-down">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--          <div class="arrow-up" style="transform: rotate(-45deg);">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <ul class="price-menu price-menu-hide">-->
+<!--          <li>-->
+<!--            <div class="li-text">Простое удаление однокорневого зуба</div>-->
+<!--            <div class="li-price">41,28 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Простое удаление многокорневого зуба</div>-->
+<!--            <div class="li-price">51,83 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Сложное удаление однокорневого зуба</div>-->
+<!--            <div class="li-price">79,98 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Сложное удаление многокорневого зуба</div>-->
+<!--            <div class="li-price">109,28 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Простое удаление ретенированного зуба</div>-->
+<!--            <div class="li-price">111,39 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Сложное удаление ретенированного зуба</div>-->
+<!--            <div class="li-price">143,44 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Цистэктомия без резекции верхушки корня</div>-->
+<!--            <div class="li-price">179,35 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Цистэктомия с резекцией верхушки корня в области верхней челюсти</div>-->
+<!--            <div class="li-price">204,06 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Цистэктомия с резекцией верхушки корня в области нижней челюсти</div>-->
+<!--            <div class="li-price">216,58 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Коррекция гребня альвеолярного отростка (области 1 зуба)</div>-->
+<!--            <div class="li-price">44,84 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Пластика уздечки</div>-->
+<!--            <div class="li-price">150,43 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Периостомия</div>-->
+<!--            <div class="li-price">43,34 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Наложение швов</div>-->
+<!--            <div class="li-price">21,39 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Перикоронароэктомия</div>-->
+<!--            <div class="li-price">44,28 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Применение коллапана</div>-->
+<!--            <div class="li-price">96,24 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Применение остеоматрикса</div>-->
+<!--            <div class="li-price">135,70 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Удаление ретенционной кисты</div>-->
+<!--            <div class="li-price">64,38 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Лечение альвеолита одной лунки зуба</div>-->
+<!--            <div class="li-price">16,30 руб.</div>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="level-menu-first-p">-->
+<!--        <div class="price-container-ul">-->
+<!--          <div class="text">Имплантация</div>-->
+<!--          <div class="arrow-down">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--          <div class="arrow-up" style="transform: rotate(-45deg);">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <ul class="price-menu price-menu-hide">-->
+<!--          <li>-->
+<!--            <div class="li-text">Имплантация 1 зуба (имплант AnyOne)</div>-->
+<!--            <div class="li-price">1 031,76 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Имплантация 1 зуба (имплант AnyRidge)</div>-->
+<!--            <div class="li-price">1 279,76 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Имплантация 1 зуба (имплант SLA)</div>-->
+<!--            <div class="li-price">1 441,76 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Имплантация 1 зуба (имплант SLActive)</div>-->
+<!--            <div class="li-price">1 569,76 руб.</div>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="level-menu-first-p">-->
+<!--        <div class="price-container-ul">-->
+<!--          <div class="text">Ортодонтическое лечение</div>-->
+<!--          <div class="arrow-down">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--          <div class="arrow-up" style="transform: rotate(-45deg);">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <ul class="price-menu price-menu-hide">-->
+<!--          <li>-->
+<!--            <div class="li-text">Снятие слепков (2 челюсти)</div>-->
+<!--            <div class="li-price">54,36 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Установка брекет-системы (одна челюсть)</div>-->
+<!--            <div class="li-price">272,24 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Коррекция брекет-системы (одна челюсть)</div>-->
+<!--            <div class="li-price">71,85 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Снятие брекет-системы (одна челюсть)</div>-->
+<!--            <div class="li-price">225,28 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Коррекция пластинки ортодонтической</div>-->
+<!--            <div class="li-price">33,56 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Установка ретейнеров (из расчета на 6 зубов)</div>-->
+<!--            <div class="li-price">114,93 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Снятие ретейнеров (из расчета на 6 зубов)</div>-->
+<!--            <div class="li-price">150,03 руб.</div>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      <div class="level-menu-first-p">-->
+<!--        <div class="price-container-ul">-->
+<!--          <div class="text">Рентгенологическая диагностика</div>-->
+<!--          <div class="arrow-down">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--          <div class="arrow-up" style="transform: rotate(-45deg);">-->
+<!--            <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/plus.svg" />-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <ul class="price-menu price-menu-hide">-->
+<!--          <li>-->
+<!--            <div class="li-text">Радиовизиография с распечаткой изображения</div>-->
+<!--            <div class="li-price">7,67 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Ортопантомография</div>-->
+<!--            <div class="li-price">13,62 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Конусно-лучевая компьютерная томография (КЛКТ) с записью изображения на диск</div>-->
+<!--            <div class="li-price">44,10 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">ТРГ (Телерентгенограмма)</div>-->
+<!--            <div class="li-price">36,24 руб.</div>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <div class="li-text">Конусно-лучевая компьютерная томография (КЛКТ) с записью на флеш-карту</div>-->
+<!--            <div class="li-price">55,90 руб.</div>-->
+<!--          </li>-->
+<!--        </ul>-->
+<!--      </div>-->
       <div class="level-menu-first-p">
         <div class="price-container-ul">
           <div class="text">Ортопедическое лечение</div>

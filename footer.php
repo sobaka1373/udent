@@ -28,7 +28,7 @@ $test = is_front_page();
           </div>
           <div class="phone-container">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg">
-            <p><a href="tel:+375232250250">+375 (232) 25-02-50</a></p>
+            <p><a href="tel:+375232250250">+375 (232) 250-250</a></p>
           </div>
           <div class="text-container">
             <p>
@@ -58,7 +58,7 @@ $test = is_front_page();
         </div>
       </div>
       <div class="bottom-text">
-        <p>ООО «Ю-ДЕНТ»</p>
+        <p>ООО «Ю-ДЭНТ»</p>
         <p>г.Гомель, ул.Кирова 19-2</p>
         <p>УНП 491067579</p>
         <p>Электронная почта: <a href="mailto:info@u-clinic.by">yudent@inbox.ru</a></p>

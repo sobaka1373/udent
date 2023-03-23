@@ -60,29 +60,29 @@ global $post;
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-107">
             <p class="burger-sub-p"><a href="<?php echo get_bloginfo('url'); ?>/services/">Услуги</a>
-              <img class="burger-sub close-sub" src="<?php echo get_template_directory_uri(); ?>/assets/img/down-arrow2.svg" /></p>
+              <img class="burger-sub opensub active-sub" src="<?php echo get_template_directory_uri(); ?>/assets/img/down-arrow2.svg" /></p>
 
             <ul class="sub-menu-second">
               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/implatation/">Имплантация</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/restoration/">Реставрация</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/prosthetics2/">Протезирование</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/prosthetics/">Протезирование</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/treatment/">Лечение под микроскопом</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/treatment/">Лечение</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/bite-correction/">Исправление прикуса</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/endodontic-treatment/">Эндодонтическое лечение</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/rentgen/">Виниры</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/veneers/">Виниры</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/whitening/">Отбеливание зубов</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/whitening/">Отбеливание зубов</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-88">
-                <p><a href="<?php echo get_bloginfo('url'); ?>/services/spa/">SPA-уход для зубов</a></p>
+                <p><a href="<?php echo get_bloginfo('url'); ?>/service_type/spa/">SPA-уход для зубов</a></p>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-89">
                 <p><a href="<?php echo get_bloginfo('url'); ?>/services/insurance">Стоматология по страховке</a></p>

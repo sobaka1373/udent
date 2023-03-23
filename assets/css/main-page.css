@@ -501,6 +501,34 @@ body p {
   filter: drop-shadow(4.42238px 4.67247px 7.17334px rgba(10, 44, 81, 0.04));
 }
 
+.service-element .left-new,
+.service-element .right-new {
+  margin: auto 0 auto -10px;
+}
+
+.service-element .right-new  p, .service-element .right-new2 p {
+  margin: 0;
+  text-align: center;
+  max-width: 118px;
+}
+
+.service-element .right-new2   {
+  margin: auto auto auto 0;
+}
+
+.insurance-container .service-element {
+  width: 440px;
+  height: 185px;
+}
+
+.insurance-container .service-element img {
+  max-width: 300px;
+}
+
+/*@media screen and (max-width: 1428px) {*/
+
+/*}*/
+
 @media screen and (max-width: 1426px) {
   .services-points .row, .insurance-container .row {
     display: grid;
@@ -515,6 +543,17 @@ body p {
   }
   .doctors-container .doctors-block-grid .item-container .doctor-specialization p {
     font-size: 15px;
+  }
+
+  .flex-insurance-container {
+    display: grid;
+    grid-template-columns: 436px 436px;
+    gap: 24px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .flex-insurance-container .row {
+    display: contents;
   }
 }
 
@@ -603,6 +642,18 @@ body p {
   }
 }
 
+@media screen and (max-width: 920px) {
+
+  .flex-insurance-container {
+    grid-template-columns: auto auto;
+  }
+
+  .flex-insurance-container .service-element {
+    width: 158px;
+    height: 158px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .services-points .row, .insurance-container .row {
     grid-template-columns: auto auto;
@@ -649,15 +700,19 @@ body p {
   }
 
   .service-element .left {
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin: 25px auto 15px auto;
   }
 
-  .service-element .right {
-    margin-bottom: 15px;
+  .service-element .left-new {
+    margin: 15px auto 15px auto;
   }
 
-  .service-element .right p {
+  .service-element .right, .service-element .right-new, .service-element .right-new2 {
+    margin: auto auto 15px auto;
+  }
+
+
+  .service-element .right p, .service-element .right-new p, .service-element .right-new2 p {
     max-width: none;
   }
   .services-points .row:last-child .service-element:last-child a {

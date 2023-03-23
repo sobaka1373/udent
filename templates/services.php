@@ -12,19 +12,19 @@
       <div class="services-points">
         <div class="row">
           <div class="service-element">
-            <a href="#">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/restoration/">
               <div class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service1.svg">
               </div>
               <div class="right">
                 <p>
-                  Реставрация, виниры
+                  Реставрация
                 </p>
               </div>
             </a>
           </div>
           <div class="service-element">
-            <a href="<?php echo get_bloginfo('url'); ?>/service_type/prosthetics2/">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/prosthetics/">
               <div class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service2.svg">
               </div>
@@ -36,7 +36,7 @@
             </a>
           </div>
           <div class="service-element">
-            <a href="#">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/treatment/">
               <div class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service3.svg">
               </div>
@@ -48,13 +48,13 @@
             </a>
           </div>
           <div class="service-element">
-            <a href="#">
-              <div class="left">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/endodontic-treatment/">
+              <div class="left-new">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service4.svg">
               </div>
-              <div class="right">
+              <div class="right-new">
                 <p>
-                  Отбеливание
+                  Эндодонтическое лечение
                 </p>
               </div>
             </a>
@@ -62,11 +62,11 @@
         </div>
         <div class="row">
           <div class="service-element">
-            <a href="#">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/veneers/">
               <div class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service5.svg">
               </div>
-              <div class="right">
+              <div class="right-new2">
                 <p>
                   Виниры
                 </p>
@@ -74,7 +74,7 @@
             </a>
           </div>
           <div class="service-element">
-            <a href="#">
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/whitening/">
               <div class="left">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service6.svg">
               </div>
@@ -86,15 +86,15 @@
             </a>
           </div>
           <div class="service-element">
-            <a href="#">
-            <div class="left">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service7.svg">
-            </div>
-            <div class="right">
-              <p>
-                SPA-уход <br> для зубов
-              </p>
-            </div>
+            <a href="<?php echo get_bloginfo('url'); ?>/service_type/spa/">
+              <div class="left">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service7.svg">
+              </div>
+              <div class="right">
+                <p>
+                  SPA-уход <br> для зубов
+                </p>
+              </div>
             </a>
           </div>
           <div class="service-element">
@@ -129,14 +129,14 @@
         <div class="service-element">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance3.svg">
         </div>
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance4.svg">
-        </div>
+<!--        <div class="service-element">-->
+<!--          <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/insurance4.svg">-->
+<!--        </div>-->
       </div>
       <div class="row">
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance5.svg">
-        </div>
+<!--        <div class="service-element">-->
+<!--          <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/insurance5.svg">-->
+<!--        </div>-->
         <div class="service-element">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance6.svg">
         </div>

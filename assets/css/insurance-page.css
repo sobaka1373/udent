@@ -35,6 +35,19 @@
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 1428px) {
+    .insurance-page-container  .insurance-container {
+        display: grid;
+        grid-template-columns: 436px 436px;
+        gap: 24px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .insurance-page-container  .insurance-container .row {
+        display: contents;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     .insurance-page-container {
         /*margin: 65px 40px 0 40px;*/
@@ -44,6 +57,18 @@
 @media screen and (max-width: 1100px) {
     .insurance-page-container .insurance-text-container .insurance-text {
         display: block;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    .insurance-page-container  .insurance-container {
+        grid-template-columns: auto auto;
+    }
+
+    .insurance-page-container  .insurance-container .service-element {
+        width: 158px;
+        height: 158px;
     }
 }
 

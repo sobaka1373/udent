@@ -41,7 +41,7 @@
           <div class="element">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/li-img.svg">
             <p>
-              Гарантийное лечение
+              Комфортный сервис
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@
       <div class="about-us-element">
         <div class="text-element">
           <p class="main-text">
-            5
+            8
           </p>
           <p class="second-text">
             Лет работы
@@ -70,7 +70,7 @@
       <div class="about-us-element">
         <div class="text-element">
           <p class="main-text">
-            15 000+
+            10 000+
           </p>
           <p class="second-text">
             Довольных клиентов
@@ -88,7 +88,7 @@
       <div class="about-us-element">
         <div class="text-element">
           <p class="main-text">
-            15
+            7
           </p>
           <p class="second-text">
             Ведущих специалистов
@@ -105,7 +105,7 @@
       <div class="about-us-element">
         <div class="text-element">
           <p class="second-text">
-            Работаем с тяжелыми клиническими случаями
+            Клиентоориентированность
           </p>
         </div>
       </div>

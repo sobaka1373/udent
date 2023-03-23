@@ -13,6 +13,8 @@ $service['page_content1'] = get_field('page_content1', $post->ID);
 $service['page_content2'] = get_field('page_content2', $post->ID);
 $service['service_photo'] = get_field('service_photo', $post->ID, false);
 $service['service_photo'] =  wp_get_attachment_image_src( $service['service_photo'], 'full');
+$service['service_photo_sm'] = get_field('service_photo_sm', $post->ID, false);
+$service['service_photo_sm'] =  wp_get_attachment_image_src( $service['service_photo_sm'], 'full');
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="service-type-page-container">
@@ -26,7 +28,10 @@ $service['service_photo'] =  wp_get_attachment_image_src( $service['service_phot
             </div>
         </div>
         <div class="right">
-              <img src="<?php echo $service['service_photo'][0]; ?>" alt="" />
+              <img class="main-hidden" src="<?php echo $service['service_photo'][0]; ?>" alt="" />
+<!--              <img class="sm-hidden" src="--><?php //echo $service['service_photo_sm'][0]; ?><!--" alt="" />-->
+        </div>
+        <div class="right-mobile" style="background-image: url(<?php echo $service['service_photo_sm'][0]; ?>)">
         </div>
       </div>
       <div class="page-content2-container">

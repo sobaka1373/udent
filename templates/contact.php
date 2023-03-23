@@ -153,7 +153,7 @@
       <div class="phone-container">
         <a href="tel:+375232250250">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg">
-          <p>+375 (232) 25-02-50</p>
+          <p>+375 (232) 250-250</p>
         </a>
       </div>
       <div class="text-container">
@@ -185,7 +185,7 @@
         </div>
         <div class="phone-container">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.svg">
-          <p>+375 (232) 25-02-50</p>
+          <p>+375 (232) 250-250</p>
         </div>
         <div class="text-container">
           <p>
