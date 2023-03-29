@@ -116,6 +116,9 @@
     .contact-page-container .flex {
         display: block;
     }
+    .contact-footer-container {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -145,9 +148,6 @@
     }
     .contact-footer-container .right {
         margin-left: auto;
-    }
-    .contact-footer-container {
-        margin-bottom: 20px;
     }
     .row-contact {
         margin-bottom: 20px;

@@ -58,7 +58,7 @@ $test = is_front_page();
         </div>
       </div>
       <div class="bottom-text">
-        <p>ООО «Ю-ДЭНТ»</p>
+        <p>ЧМУП "ДентГомель"</p>
         <p>г.Гомель, ул.Кирова 19-2</p>
         <p>УНП 491067579</p>
         <p>Электронная почта: <a href="mailto:info@u-clinic.by">yudent@inbox.ru</a></p>

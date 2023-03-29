@@ -60,6 +60,7 @@
 .about-us-element .text-element .second-text {
     font-size: 22px;
     line-height: 120%;
+    word-wrap: break-word;
 }
 
 .virtual-tour .virtual-header p {

@@ -153,7 +153,7 @@ jQuery(document).ready(function($) {
    $('.burger-menu1 #top-menu-nav ul .menu-item-has-children').click(function () {
       $('.burger-menu1 #top-menu-nav .sub-menu').show();
 
-      console.log(11);
+      // console.log(11);
    });
 
    // $('.btn-record').click(function () {

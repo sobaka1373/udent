@@ -190,7 +190,7 @@ body p {
   font-family: Gilroy;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 150%;
   text-transform: uppercase;
   color: #02111B;
@@ -410,6 +410,7 @@ body p {
 
 .pop-up-container .pop-up-header img {
   margin: 15px 15px 0 auto;
+  cursor: pointer;
 }
 
 .pop-up-container .pop-up-content .contact-info  .contact-header {
@@ -532,6 +533,30 @@ body p {
   user-select: none;
 }
 
+.mobile-link {
+  display: none;
+}
+
+.mobile-link a {
+  display: flex;
+  font-family: Gilroy, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #02111B;
+  margin: 15px auto 0 auto;
+}
+.mobile-link a p {
+  margin: 0 13px 0 0;
+}
+.mobile-link a:hover p, .mobile-link a:hover path {
+  color: #FFD31F;
+  fill: #FFD31F;
+}
 
 @media screen and (max-width: 1426px) {
   .services-points .row, .insurance-container .row {
@@ -824,5 +849,9 @@ body p {
   .about-us-container .about-us-info-container .about-us-info-text
   {
     font-size: 16px;
+  }
+
+  .mobile-link {
+    display: flex;
   }
 }

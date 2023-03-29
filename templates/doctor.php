@@ -51,8 +51,8 @@ Template Post Type: post, doctor_type
             <?php endif; ?>
 
           <div class="mobile-photo-doctor">
-            <div class="doctor-cover-img" >
-              <img src="<?php echo $doctor['photo'][0]; ?>" />
+            <div class="doctor-cover-img" style="background-image:  url(<?php echo $doctor['photo'][0]; ?>)">
+<!--              <img src="--><?php //echo $doctor['photo'][0]; ?><!--" />-->
             </div>
           </div>
 

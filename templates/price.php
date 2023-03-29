@@ -9,7 +9,7 @@
 
       <div class="level-menu-first-p">
         <div class="price-container-ul">
-          <div class="text">Общие стоматологические мероприятияа</div>
+          <div class="text">Общие стоматологические мероприятия</div>
           <div class="arrow-down">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plus.svg" />
           </div>
