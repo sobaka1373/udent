@@ -104,8 +104,11 @@
       </div>
       <div class="about-us-element">
         <div class="text-element">
-          <p class="second-text">
+          <p class="second-text no-wrap">
             Клиентоориентированность
+          </p>
+          <p class="second-text wrap">
+            Клиентоориен-тированность
           </p>
         </div>
       </div>

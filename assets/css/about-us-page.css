@@ -176,6 +176,7 @@
         /*height: 307.22px;*/
         background-position-x: unset;
         background-repeat: round;
+        background-repeat-y: no-repeat;
     }
 
     .about-us-element .text-element .main-text {
@@ -221,5 +222,23 @@
     }
     .about-us-page-first .right {
         height: 307.22px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .no-wrap {
+        display: block;
+    }
+    .wrap {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .no-wrap {
+        display: none;
+    }
+    .wrap {
+        display: block;
     }
 }

@@ -110,6 +110,7 @@ jQuery(document).ready(function($) {
       prevArrow: '<i class="fas fa-chevron-left slick-prev"></i>',
       autoplay: true,
       autoplaySpeed: 2500,
+      // variableWidth: true,
       dots: false,
       arrows: true,
       infinite: true,

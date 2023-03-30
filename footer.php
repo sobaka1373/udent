@@ -117,9 +117,15 @@ $test = is_front_page();
                             if (!empty($item['date'])) {
                                 $date_month = substr($item['date'],4, 2);
                                 $date_day = substr($item['date'],6, 2);
-                                echo "<p>$item[day_name] ($date_day.$date_month) $start_time-$end_time</p>";
-                            } else {
+                                if (!empty($start_time) && !empty($end_time)) {
+                                    echo "<p>$item[day_name] ($date_day.$date_month) $start_time-$end_time</p>";
+                                } else {
+                                    echo "<p>$item[day_name] ($date_day.$date_month)</p>";
+                                }
+                            } else if (!empty($start_time) && !empty($end_time)) {
                                 echo "<p>$item[day_name]  $start_time-$end_time</p>";
+                            } else {
+                                echo "<p>$item[day_name]</p>";
                             }
                         }
                         ?>

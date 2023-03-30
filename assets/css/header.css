@@ -49,6 +49,7 @@
     width: 20px;
     height: 23px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .header-container .first-row .header-right .header-days .help-box {
