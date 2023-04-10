@@ -32,7 +32,7 @@ global $post;
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-  <title>Ю-Дент | Стоматологический центр в Гомеле</title>
+  <title>Ю-Дент | Стоматологическая клиника в Гомеле</title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -118,7 +118,7 @@ global $post;
         </div>
         <div class="mobile-logo">
           <a href="<?php echo get_bloginfo('url'); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mobile.svg" alt="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mobile.png" alt="logo">
           </a>
         </div>
         <div class="header-address">

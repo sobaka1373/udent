@@ -581,6 +581,11 @@ nav li p {
     .mobile-logo {
         display: block;
     }
+
+    .mobile-logo a img {
+        display: block;
+        width: 43px;
+    }
 }
 
 @media screen and (max-width: 1000px) {

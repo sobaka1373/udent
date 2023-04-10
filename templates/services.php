@@ -119,34 +119,31 @@
           Стоматология по страховке
         </p>
       </div>
-      <div class="row">
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance1.svg">
+      <div class="flex-insurance-container">
+        <div class="row">
+          <div class="service-element">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance1.svg">
+          </div>
+          <div class="service-element">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance2.svg">
+          </div>
+          <div class="service-element">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance3.svg">
+          </div>
         </div>
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance2.svg">
-        </div>
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance3.svg">
-        </div>
-<!--        <div class="service-element">-->
-<!--          <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/insurance4.svg">-->
-<!--        </div>-->
-      </div>
-      <div class="row">
-<!--        <div class="service-element">-->
-<!--          <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/img/insurance5.svg">-->
-<!--        </div>-->
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance6.svg">
-        </div>
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance7.svg">
-        </div>
-        <div class="service-element">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance8.svg">
+        <div class="row">
+          <div class="service-element">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance6.svg">
+          </div>
+          <div class="service-element">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance7.svg">
+          </div>
+          <div class="service-element">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/insurance8.svg">
+          </div>
         </div>
       </div>
+
     </div>
 
     <div class="after-footer-row"></div>

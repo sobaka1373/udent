@@ -855,3 +855,16 @@ body p {
     display: flex;
   }
 }
+
+@media screen and (max-width: 520px) {
+  .pop-up-container {
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 404px) {
+  .pop-up-container {
+    margin-left: -170px !important;
+    padding: 50px 20px 20px 20px;
+  }
+
+}

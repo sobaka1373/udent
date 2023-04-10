@@ -106,6 +106,10 @@
     stroke: #FFD31F;
 }
 
+.contact-page-container .flex .right {
+    margin: auto 0 auto auto;
+}
+
 @media screen and (max-width: 1400px) {
     .contact-page-container {
         margin: 60px 20px 12px 20px;

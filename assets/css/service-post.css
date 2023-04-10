@@ -50,11 +50,13 @@
     /*display: block;*/
     margin: auto 15px auto 0;
 
-    background-image: url("data:image/svg+xml,%3Csvg width='31' height='1' viewBox='0 0 31 1' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='4.37114e-08' y1='0.5' x2='31' y2='0.500003' stroke='%2302111B'/%3E%3C/svg%3E");
+    /*background-image: url("data:image/svg+xml,%3Csvg width='31' height='1' viewBox='0 0 31 1' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='4.37114e-08' y1='0.5' x2='31' y2='0.500003' stroke='%2302111B'/%3E%3C/svg%3E");*/
     display: inline-block;
     width: 31px;
     height: 1px;
     content:"";
+    border-top: 1px solid #02111B;
+    min-width: 31px;
 }
 
 .page-content2-container ul {
