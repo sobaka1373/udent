@@ -62,11 +62,8 @@ jQuery(document).ready(function($) {
 
    $('.footer-whatsapp').click(function (e){
       e.preventDefault();
-      $('.pop-it-record').show();
-      $('.pop-helper').hide();
-      $('body').addClass('hide-page');
-      $('.ellipse').css('box-shadow', 'unset');
-      $('.ellipse').css('background', 'unset');
+      $('.pop-up-container').addClass('pop-up-active');
+      $('#myModal').modal({backdrop: true});
    });
 
    $('.btn-round').click(function (){

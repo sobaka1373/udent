@@ -638,9 +638,9 @@ body p {
     justify-content: center;
   }
 
-  .doctors-block-grid a:nth-child(2), .doctors-block-grid a:nth-child(3) {
-    display: none;
-  }
+  /*.doctors-block-grid a:nth-child(2), .doctors-block-grid a:nth-child(3) {*/
+  /*  display: none;*/
+  /*}*/
 
   .about-us-container .about-us-info-container {
     display: block;
