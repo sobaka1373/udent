@@ -93,7 +93,7 @@ $test = is_front_page();
           <div class="address-data-container">
             <div>
               <p>Пн-Пт 8:00-20:00</p>
-              <p>Сб-Вс 9:00-15:00</p>
+              <p>Сб    9:00-15:00</p>
             </div>
             <div class="left">
               <div class="days-right">

@@ -115,6 +115,31 @@
     </div>
   </div>
 
+	<div class="buttons">
+        <div class="links">
+            <div class="order"><a href="../rules/">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/line-circle.svg">
+				Правила внутреннего распорядка
+            </a></div>
+			<div class="order"><a href="../garanty/">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/line-circle.svg">
+				Положение о гарантиях
+            </a></div>
+			<div class="order"><a href="../contract-offer/">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/line-circle.svg">
+				Публичный договор-оферта
+            </a></div>
+			<div class="order"><a href="../cctv-policy/">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/line-circle.svg">
+				Политика видеонаблюдения
+            </a></div>
+			<div class="order"><a href="../personal-data-processing-policy/">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/line-circle.svg">
+				Политика обработки персональных данных
+            </a></div>
+        </div>
+    </div>
+	
   <div class="virtual-tour">
 
     <div class="virtual-header header">

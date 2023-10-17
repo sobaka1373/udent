@@ -63,6 +63,29 @@
     word-wrap: break-word;
 }
 
+.buttons a {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: #02111B;
+  text-align: center;
+}
+.buttons a:hover {
+    cursor: pointer;
+    color: #FECC00; 
+}
+.buttons img {
+  margin-right: 15px; 
+}
+.buttons .links {
+  margin-top: 60px;
+  margin-bottom: 100px; 
+}
+.buttons .links .order {
+    margin-bottom: 20px; 
+}
+
 .virtual-tour .virtual-header p {
     margin-top: 148px;
     margin-bottom: 35px;

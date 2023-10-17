@@ -129,7 +129,7 @@ global $post;
         <div class="header-days">
           <div class="days-left">
             <p>Пн-Пт 8:00-20:00</p>
-            <p>Сб-Вс 9:00-15:00</p>
+            <p>Сб 9:00-15:00</p>
           </div>
           <div class="days-right">
             <div class="help-box"></div>
