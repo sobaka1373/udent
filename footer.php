@@ -119,11 +119,15 @@ $test = is_front_page();
                                 $date_day = substr($item['date'],6, 2);
                                 if (!empty($start_time) && !empty($end_time)) {
                                     echo "<p>$item[day_name] ($date_day.$date_month) $start_time-$end_time</p>";
+                                } elseif ($item['day_off'] === '1') {
+                                    echo "<p>$item[day_name] ($date_day.$date_month) - Выходной</p>";
                                 } else {
                                     echo "<p>$item[day_name] ($date_day.$date_month)</p>";
                                 }
                             } else if (!empty($start_time) && !empty($end_time)) {
                                 echo "<p>$item[day_name]  $start_time-$end_time</p>";
+                            } elseif ($item['day_off'] === '1') {
+                                echo "<p>$item[day_name] - Выходной</p>";
                             } else {
                                 echo "<p>$item[day_name]</p>";
                             }
